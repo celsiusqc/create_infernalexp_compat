@@ -75,17 +75,12 @@ public class ModItems {
             () -> new Item(new Item.Properties().tab(ModCreativeModTab.cd_addon)));
 
 
-    public static final RegistryObject<SwordItem> VOID_WORM_SWORD = ITEMS.register("void_wormed_sword",
-            () -> new SwordItem(ToolTiers.VOID_WORM, 12, -2.4f, props()));
-                                                //Attack DMG Bonus from Base  - Attack Speed float -- Adds to the base of 1attack dmg, 4 attack speed
 
-    public static final RegistryObject<AxeItem> VOID_WORM_AXE = ITEMS.register("void_wormed_axe",
-            () -> new AxeItem(ToolTiers.VOID_WORM, 15, -3.0f, props()));
 
     public static class ToolTiers {
         public static final Tier VOID_WORM = new ForgeTier(
                 4,
-                2500,
+                2067,
                 0,
                 0,
                 15,
@@ -96,13 +91,14 @@ public class ModItems {
     public static class ArmorTiers {
         public static final ArmorMaterial VOID_WORM = new ModArmorMaterial(
                 "void_wormed",
-                3000,
-                new int[] {8, 12, 15, 8},
+                600,
+                new int[] {5, 8, 10, 5},
                 15,
                 SoundEvents.ARMOR_EQUIP_NETHERITE,
                 1.7f,
                 0.12f,
                 () -> Ingredient.of(ModItems.WORM_GU.get()));
+
     }
 
     public static final RegistryObject<ArmorItem> VOID_WORM_HELMET = ITEMS.register("void_wormed_helmet",
@@ -113,6 +109,18 @@ public class ModItems {
             () -> new ArmorItem(ArmorTiers.VOID_WORM, EquipmentSlot.LEGS, props()));
     public static final RegistryObject<ArmorItem> VOID_WORM_BOOTS = ITEMS.register("void_wormed_boots",
             () -> new ArmorItem(ArmorTiers.VOID_WORM, EquipmentSlot.FEET, props()));
+
+    public static final RegistryObject<SwordItem> VOID_WORM_SWORD = ITEMS.register("void_wormed_sword",
+            () -> new SwordItem(ToolTiers.VOID_WORM, 9, -2.4f, props()));
+    //Attack DMG Bonus from Base  - Attack Speed float -- Adds to the base of 1attack dmg, 4 attack speed
+    public static final RegistryObject<AxeItem> VOID_WORM_AXE = ITEMS.register("void_wormed_axe",
+            () -> new AxeItem(ToolTiers.VOID_WORM, 11, -3.0f, props()));
+    public static final RegistryObject<ShovelItem> VOID_WORM_SHOVEL = ITEMS.register("void_wormed_shovel",
+            () -> new ShovelItem(ToolTiers.VOID_WORM, 6, -3.0f, props()));
+    public static final RegistryObject<PickaxeItem> VOID_WORM_PICKAXE = ITEMS.register("void_wormed_pickaxe",
+            () -> new PickaxeItem(ToolTiers.VOID_WORM, 6, -2.8f, props()));
+    public static final RegistryObject<HoeItem> VOID_WORM_HOE = ITEMS.register("void_wormed_hoe",
+            () -> new HoeItem(ToolTiers.VOID_WORM, 0, 0.0f, props()));
 
     private static Item.Properties props() {
         return new Item.Properties().tab(ModCreativeModTab.cd_addon);
