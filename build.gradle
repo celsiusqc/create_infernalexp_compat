@@ -139,6 +139,9 @@ repositories {
         name = "Team Resourceful Maven"
         url = "https://maven.resourcefulbees.com/repository/maven-public/"
     }
+    maven {
+        url "https://nexus.resourcefulbees.com/repository/telepathicgrunt/"
+    }
 
     flatDir {
         dir 'libs'
@@ -163,6 +166,8 @@ dependencies {
     implementation fg.deobf("earth.terrarium:botarium-forge-1.19.2:1.8.2")
     implementation fg.deobf("com.teamresourceful.resourcefulconfig:resourcefulconfig-forge-1.19.2:1.0.20")
     implementation fg.deobf("blank:ad_astra-forge:1.19.2-1.12.6")
+    implementation fg.deobf("com.telepathicgrunt:Bumblezone-Forge:6.7.18+1.19.2")
+
     // Real mod deobf dependency examples - these get remapped to your current mappings
     // compileOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}:api") // Adds JEI API as a compile dependency
     // runtimeOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}") // Adds the full JEI mod as a runtime dependency
