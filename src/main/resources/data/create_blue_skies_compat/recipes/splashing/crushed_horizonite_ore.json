@@ -1,0 +1,18 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "create_blue_skies_compat:crushed_horizonite_ore"
+    }
+  ],
+  "results": [
+    {
+      "count": 9,
+      "item": "blue_skies:horizonite_nugget"
+    },
+    {
+      "chance": 0.5,
+      "item": "minecraft:clay_ball"
+    }
+  ]
+}

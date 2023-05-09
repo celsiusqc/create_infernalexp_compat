@@ -1,0 +1,1 @@
+{ "type": "create:crushing", "ingredients": [{"item": "blue_skies:raw_ventium_block"}], "results": [{"item": "create_blue_skies_compat:crushed_ventium_ore","count": 9},{"item": "create:experience_nugget","count": 9,"chance": 0.75}], "processingTime": 300}

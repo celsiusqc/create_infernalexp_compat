@@ -1,0 +1,13 @@
+{
+  "type": "create:pressing",
+  "ingredients": [
+    {
+      "item": "blue_skies:ventium_ingot"
+    }
+  ],
+  "results": [
+    {
+      "item": "create_blue_skies_compat:ventium_sheet"
+    }
+  ]
+}

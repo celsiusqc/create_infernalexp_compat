@@ -16,8 +16,8 @@ plugins {
 apply plugin: 'org.spongepowered.mixin'
 
 version = '1.0.0-1.19'
-group = 'net.celsiusqc.totw_modded' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
-archivesBaseName = 'totw_modded'
+group = 'net.celsiusqc.create_blue_skies_compat' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
+archivesBaseName = 'create_blue_skies_compat'
 
 // Mojang ships Java 17 to end users in 1.18+, so your mod should target Java 17.
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
@@ -60,10 +60,10 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
-            property 'forge.enabledGameTestNamespaces', 'totw_modded'
+            property 'forge.enabledGameTestNamespaces', 'create_blue_skies_compat'
 
             mods {
-                totw_modded {
+                create_blue_skies_compat {
                     source sourceSets.main
                 }
             }
@@ -76,10 +76,10 @@ minecraft {
 
             property 'forge.logging.console.level', 'debug'
 
-            property 'forge.enabledGameTestNamespaces', 'totw_modded'
+            property 'forge.enabledGameTestNamespaces', 'create_blue_skies_compat'
 
             mods {
-                totw_modded {
+                create_blue_skies_compat {
                     source sourceSets.main
                 }
             }
@@ -95,10 +95,10 @@ minecraft {
 
             property 'forge.logging.console.level', 'debug'
 
-            property 'forge.enabledGameTestNamespaces', 'totw_modded'
+            property 'forge.enabledGameTestNamespaces', 'create_blue_skies_compat'
 
             mods {
-                totw_modded {
+                create_blue_skies_compat {
                     source sourceSets.main
                 }
             }
@@ -112,10 +112,10 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             // Specify the modid for data generation, where to output the resulting resource, and where to look for existing resources.
-            args '--mod', 'totw_modded', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+            args '--mod', 'create_blue_skies_compat', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
 
             mods {
-                totw_modded {
+                create_blue_skies_compat {
                     source sourceSets.main
                 }
             }
@@ -135,17 +135,13 @@ repositories {
         url "https://maven.moddinglegacy.com/maven"
     }
     maven {
-        // Location of the maven that hosts Terrarium and Team Resourceful's files.
-        name = "Team Resourceful Maven"
-        url = "https://maven.resourcefulbees.com/repository/maven-public/"
+            name = 'tterrag maven'
+            url = 'https://maven.tterrag.com/'
     }
-    maven {
-        url "https://nexus.resourcefulbees.com/repository/telepathicgrunt/"
-    }
-
     flatDir {
         dir 'libs'
     }
+
     // If you have mod jar dependencies in ./libs, you can declare them as a repository like so:
     // flatDir {
     //     dir 'libs'
@@ -157,40 +153,22 @@ dependencies {
     // that the dep is a ForgeGradle 'patcher' dependency, and its patches will be applied.
     // The userdev artifact is a special name and will get all sorts of transformations applied to it.
     minecraft 'net.minecraftforge:forge:1.19.2-43.2.2'
-    runtimeOnly fg.deobf("curse.maven:waystones-${waystones_curseforge_id}:${waystones_curseforge_file_id}")
-    runtimeOnly fg.deobf("curse.maven:balm-${balm_curseforge_id}:${balm_curseforge_file_id}")
-    implementation fg.deobf("blank:Paraglider:1.19.2-1.7.0.5")
     implementation fg.deobf("blank:blue_skies:1.19.2-1.3.20")
     implementation fg.deobf("com.legacy:structure-gel:1.19.2-2.7.2")
-    implementation fg.deobf("com.teamresourceful.resourcefullib:resourcefullib-forge-1.19.2:1.1.24")
-    implementation fg.deobf("earth.terrarium:botarium-forge-1.19.2:1.8.2")
-    implementation fg.deobf("com.teamresourceful.resourcefulconfig:resourcefulconfig-forge-1.19.2:1.0.20")
-    implementation fg.deobf("blank:ad_astra-forge:1.19.2-1.12.6")
-    implementation fg.deobf("com.telepathicgrunt:Bumblezone-Forge:6.7.18+1.19.2")
-
-    // Real mod deobf dependency examples - these get remapped to your current mappings
-    // compileOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}:api") // Adds JEI API as a compile dependency
-    // runtimeOnly fg.deobf("mezz.jei:jei-${mc_version}:${jei_version}") // Adds the full JEI mod as a runtime dependency
-    // implementation fg.deobf("com.tterrag.registrate:Registrate:MC${mc_version}-${registrate_version}") // Adds registrate as a dependency
-
-    // Examples using mod jars from ./libs
-    // implementation fg.deobf("blank:coolmod-${mc_version}:${coolmod_version}")
-
-    // For more info...
-    // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
-    // http://www.gradle.org/docs/current/userguide/dependency_management.html
+    implementation fg.deobf("blank:create:1.19.2-0.5.0.i")
+    implementation fg.deobf("blank:jei:1.19.2-forge-11.6.0.1015")
 }
 
 // Example for how to get properties into the manifest for reading at runtime.
 jar {
     manifest {
         attributes([
-                "Specification-Title"     : "totw_modded",
-                "Specification-Vendor"    : "totw_moddedsareus",
+                "Specification-Title"     : "create_blue_skies_compat",
+                "Specification-Vendor"    : "create_blue_skies_compatsareus",
                 "Specification-Version"   : "0.0.5", // We are version 1 of ourselves
                 "Implementation-Title"    : project.name,
                 "Implementation-Version"  : project.jar.archiveVersion,
-                "Implementation-Vendor"   : "totw_moddedsareus",
+                "Implementation-Vendor"   : "create_blue_skies_compatsareus",
                 "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
         ])
     }
