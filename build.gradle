@@ -15,7 +15,7 @@ plugins {
 
 apply plugin: 'org.spongepowered.mixin'
 
-version = '1.0.0-1.19'
+version = '1.0.1-1.19'
 group = 'net.celsiusqc.create_blue_skies_compat' // http://maven.apache.org/guides/mini/guide-naming-conventions.html
 archivesBaseName = 'create_blue_skies_compat'
 
@@ -165,7 +165,7 @@ jar {
         attributes([
                 "Specification-Title"     : "create_blue_skies_compat",
                 "Specification-Vendor"    : "create_blue_skies_compatsareus",
-                "Specification-Version"   : "0.0.5", // We are version 1 of ourselves
+                "Specification-Version"   : "1.0.1", // We are version 1 of ourselves
                 "Implementation-Title"    : project.name,
                 "Implementation-Version"  : project.jar.archiveVersion,
                 "Implementation-Vendor"   : "create_blue_skies_compatsareus",
