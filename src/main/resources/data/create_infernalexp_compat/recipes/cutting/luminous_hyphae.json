@@ -1,0 +1,14 @@
+{
+  "type": "create:cutting",
+  "ingredients": [
+    {
+      "item": "infernalexp:luminous_hyphae"
+    }
+  ],
+  "processingTime": 50,
+  "results": [
+    {
+      "item": "infernalexp:stripped_luminous_hyphae"
+    }
+  ]
+}

@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:blasting",
-  "ingredient": {
-    "item": "create_blue_skies_compat:crushed_horizonite_ore"
-  },
-  "result": "blue_skies:horizonite_ingot",
-  "experience": 0.1,
-  "cookingtime": 100
-}

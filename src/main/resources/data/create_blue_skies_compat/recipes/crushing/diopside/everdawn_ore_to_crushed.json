@@ -1,1 +1,0 @@
-{ "type": "create:crushing", "ingredients": [ { "item": "blue_skies:everdawn_diopside_ore" } ], "processingTime": 250, "results": [ { "item": "blue_skies:diopside_gem" }, { "chance": 0.75, "item": "blue_skies:diopside_gem" }, { "chance": 0.75, "item": "create:experience_nugget" }, { "chance": 0.125, "item": "blue_skies:lunar_cobblestone" } ] }

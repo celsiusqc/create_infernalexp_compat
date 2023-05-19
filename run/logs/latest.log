@@ -1,344 +1,623 @@
-[09May2023 16:53:35.678] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.19, --assetsDir, C:\Users\Administrator\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 43.2.2, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
-[09May2023 16:53:35.684] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.5 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
-[09May2023 16:53:35.939] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Administrator/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23126!/ Service=ModLauncher Env=CLIENT
-[09May2023 16:53:36.333] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.19.2-43.2.2\389ec079104374249fd1e58f4b400f74d268ecab\javafmllanguage-1.19.2-43.2.2.jar is missing mods.toml file
-[09May2023 16:53:36.341] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.19.2-43.2.2\d54f190464095c16d6ac83088ed38f77e201cb7\lowcodelanguage-1.19.2-43.2.2.jar is missing mods.toml file
-[09May2023 16:53:36.348] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.19.2-43.2.2\e9a887019dfaaad397bcc84175024325490626c2\mclanguage-1.19.2-43.2.2.jar is missing mods.toml file
-[09May2023 16:53:36.356] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.19.2-43.2.2\87757e0e28c54b2308021b5304033bd5e59e9b7c\fmlcore-1.19.2-43.2.2.jar is missing mods.toml file
-[09May2023 16:53:36.625] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
-[09May2023 16:53:38.935] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[09May2023 16:53:38.947] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Administrator\.gradle\caches\forge_gradle\assets, --assetIndex, 1.19]
-[09May2023 16:53:39.381] [main/INFO] [mixin/]: Remapping refMap blue_skies.refmap.json using C:\Users\Administrator\Documents\create_blue_skies_compat\build\createSrgToMcp\output.srg
-[09May2023 16:53:39.384] [main/INFO] [mixin/]: Remapping refMap flywheel.refmap.json using C:\Users\Administrator\Documents\create_blue_skies_compat\build\createSrgToMcp\output.srg
-[09May2023 16:53:39.385] [main/INFO] [mixin/]: Remapping refMap create.refmap.json using C:\Users\Administrator\Documents\create_blue_skies_compat\build\createSrgToMcp\output.srg
-[09May2023 16:53:39.386] [main/INFO] [mixin/]: Remapping refMap structure_gel.refmap.json using C:\Users\Administrator\Documents\create_blue_skies_compat\build\createSrgToMcp\output.srg
-[09May2023 16:53:39.718] [main/WARN] [mixin/]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/data/ChunkRenderData$Builder (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.render.chunk.data.ChunkRenderData$Builder)
-[09May2023 16:53:39.719] [main/WARN] [mixin/]: @Mixin target me.jellysquid.mods.sodium.client.render.chunk.data.ChunkRenderData$Builder was not found flywheel.mixins.json:instancemanage.SodiumChunkRenderDataMixin
-[09May2023 16:53:44.762] [pool-3-thread-1/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
-[09May2023 16:53:46.578] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/Administrator/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.2.2_mapped_official_1.19.2/forge-1.19.2-43.2.2_mapped_official_1.19.2-recomp.jar%23188!/assets/.mcassetsroot' uses unexpected schema
-[09May2023 16:53:46.578] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/Administrator/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.2.2_mapped_official_1.19.2/forge-1.19.2-43.2.2_mapped_official_1.19.2-recomp.jar%23188!/data/.mcassetsroot' uses unexpected schema
-[09May2023 16:53:46.608] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[09May2023 16:53:46.614] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
-[09May2023 16:53:46.722] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
-[09May2023 16:53:47.372] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.2.2, for MC 1.19.2 with MCP 20220805.130853
-[09May2023 16:53:47.373] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.2.2 Initialized
-[09May2023 16:53:47.385] [modloading-worker-0/INFO] [com.jozufozu.flywheel.backend.Backend/]: No shaders mod detected.
-[09May2023 16:53:47.391] [Modding Legacy/blue_skies/Supporters thread/INFO] [ModdingLegacy/blue_skies/Supporter/]: Attempting to load the Modding Legacy supporters list from https://moddinglegacy.com/supporters-changelogs/supporters.txt
-[09May2023 16:53:48.100] [Modding Legacy/blue_skies/Supporters thread/INFO] [ModdingLegacy/blue_skies/Supporter/]: Successfully loaded the Modding Legacy supporters list.
-[09May2023 16:53:51.254] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [create_blue_skies_compat]
-[09May2023 16:53:51.703] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
-[09May2023 16:53:51.912] [Worker-Main-4/INFO] [net.celsiusqc.create_blue_skies_compat.CreateBlueSkiesCompat/]: HELLO FROM COMMON SETUP
-[09May2023 16:53:51.912] [Worker-Main-4/INFO] [net.celsiusqc.create_blue_skies_compat.CreateBlueSkiesCompat/]: DIRT BLOCK >> minecraft:dirt
-[09May2023 16:53:52.047] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [blue_skies] Starting version check at http://changelogs.moddinglegacy.com/blue-skies.json
-[09May2023 16:53:52.381] [Render thread/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:loot_table_alias
-[09May2023 16:53:52.392] [Render thread/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:data_handler_type
-[09May2023 16:53:52.394] [Render thread/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:dynamic_spawner
-[09May2023 16:53:52.395] [Render thread/INFO] [ModdingLegacy/StructureGel/]: [structure_gel] Registering data for structure_gel:jigsaw_type
-[09May2023 16:53:52.759] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [blue_skies] Found status: UP_TO_DATE Current: 1.3.20 Target: null
-[09May2023 16:53:52.762] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
-[09May2023 16:53:52.901] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 43.2.2 Target: 43.2.11
-[09May2023 16:53:52.902] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
-[09May2023 16:53:53.097] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: AHEAD Current: 0.6.8.a-14 Target: null
-[09May2023 16:54:05.886] [Render thread/INFO] [com.jozufozu.flywheel.backend.Backend/]: Loaded all shader sources.
-[09May2023 16:54:05.903] [Render thread/INFO] [ModdingLegacy/blue_skies/SkiesDataManager/]: Loaded 9 journal_lang
-[09May2023 16:54:08.406] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
-[09May2023 16:54:08.406] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[09May2023 16:54:08.471] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Line 1 (Virtual Audio Cable)
-[09May2023 16:54:08.472] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
-[09May2023 16:54:08.591] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[09May2023 16:54:08.598] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[09May2023 16:54:08.603] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[09May2023 16:54:08.604] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[09May2023 16:54:08.606] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/chest.png-atlas
-[09May2023 16:54:08.606] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[09May2023 16:54:08.606] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[09May2023 16:54:10.018] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[09May2023 16:54:10.289] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
-[09May2023 16:54:10.292] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[09May2023 16:54:10.292] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[09May2023 16:54:10.295] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 jei:textures/atlas/gui.png-atlas
-[09May2023 16:54:10.579] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
-[09May2023 16:54:22.827] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 22 recipes
-[09May2023 16:54:23.991] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 3072 advancements
-[09May2023 16:54:23.993] [Render thread/INFO] [ModdingLegacy/blue_skies/SkiesDataManager/]: Loaded 8 tool_handle_types
-[09May2023 16:54:23.993] [Render thread/INFO] [ModdingLegacy/blue_skies/SkiesDataManager/]: Loaded 37 snowcap_oven_freezing_recipes
-[09May2023 16:54:23.993] [Render thread/INFO] [ModdingLegacy/blue_skies/SkiesDataManager/]: Loaded 7 horizonite_forge_fuels
-[09May2023 16:54:23.993] [Render thread/INFO] [ModdingLegacy/blue_skies/SkiesDataManager/]: Loaded 12 snowcap_mushroom_freezing
-[09May2023 16:54:24.001] [Render thread/INFO] [ModdingLegacy/blue_skies/SkiesDataManager/]: Loaded 70 alchemy_recipes
-[09May2023 16:54:24.004] [Render thread/INFO] [ModdingLegacy/blue_skies/SkiesDataManager/]: Loaded 81 journal/entries
-[09May2023 16:54:24.004] [Render thread/INFO] [ModdingLegacy/blue_skies/SkiesDataManager/]: Loaded 3 journal/sections
-[09May2023 16:54:24.004] [Render thread/INFO] [ModdingLegacy/blue_skies/SkiesDataManager/]: Loaded 7 journal/requirements
-[09May2023 16:54:25.292] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.19.2
-[09May2023 16:54:25.292] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
-[09May2023 16:54:25.561] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
-[09May2023 16:54:27.416] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09May2023 16:54:27.416] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09May2023 16:54:27.416] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09May2023 16:54:27.416] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09May2023 16:54:27.598] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
-[09May2023 16:54:28.100] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 54%
-[09May2023 16:54:28.291] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
-[09May2023 16:54:28.301] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 2719 ms
-[09May2023 16:54:28.432] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
-[09May2023 16:54:28.434] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
-[09May2023 16:54:28.643] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
-[09May2023 16:54:29.500] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
-[09May2023 16:54:29.543] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@224b7194
-[09May2023 16:54:29.564] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:8189dc6f] logged in with entity id 13 at (1.1775090311957581, -60.0, -1.2078963842369062)
-[09May2023 16:54:29.611] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending ToolHandleTypeManager to Dev
-[09May2023 16:54:29.623] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending SnowcapOvenFreezingManager to Dev
-[09May2023 16:54:29.625] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending HorizoniteForgeFuelManager to Dev
-[09May2023 16:54:29.626] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending AlchemyRecipeManager to Dev
-[09May2023 16:54:29.663] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalEntryManager to Dev
-[09May2023 16:54:29.675] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalSectionManager to Dev
-[09May2023 16:54:29.676] [Server thread/INFO] [ModdingLegacy/blue_skies/]: Sending JournalRequirementManager to Dev
-[09May2023 16:54:29.739] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
-[09May2023 16:54:30.864] [Render thread/INFO] [BatchExecutor/]: Started 10 worker threads
-[09May2023 16:54:30.922] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingIn
-[09May2023 16:54:30.923] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from DISABLED to ENABLED
-[09May2023 16:54:30.938] [Render thread/INFO] [ModdingLegacy/blue_skies/]: Recieved ToolHandleTypeManager from the server
-[09May2023 16:54:30.938] [Render thread/INFO] [ModdingLegacy/blue_skies/]: Recieved SnowcapOvenFreezingManager from the server
-[09May2023 16:54:30.938] [Render thread/INFO] [ModdingLegacy/blue_skies/]: Recieved HorizoniteForgeFuelManager from the server
-[09May2023 16:54:30.938] [Render thread/INFO] [ModdingLegacy/blue_skies/]: Recieved AlchemyRecipeManager from the server
-[09May2023 16:54:30.938] [Render thread/INFO] [ModdingLegacy/blue_skies/]: Recieved JournalEntryManager from the server
-[09May2023 16:54:30.938] [Render thread/INFO] [ModdingLegacy/blue_skies/]: Recieved JournalSectionManager from the server
-[09May2023 16:54:30.938] [Render thread/INFO] [ModdingLegacy/blue_skies/]: Recieved JournalRequirementManager from the server
-[09May2023 16:54:31.200] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.RecipesUpdatedEvent
-[09May2023 16:54:31.384] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.event.TagsUpdatedEvent
-[09May2023 16:54:31.384] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from ENABLED to JEI_STARTED
-[09May2023 16:54:31.385] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Starting JEI...
-[09May2023 16:54:31.426] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes: jei:minecraft ...
-[09May2023 16:54:31.432] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes: jei:minecraft took 5.223 ms
-[09May2023 16:54:31.432] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes: blue_skies:jei_plugin ...
-[09May2023 16:54:31.432] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes: blue_skies:jei_plugin took 69.20 ?s
-[09May2023 16:54:31.437] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes: create:jei_plugin ...
-[09May2023 16:54:31.437] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes: create:jei_plugin took 30.70 ?s
-[09May2023 16:54:31.439] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes: jei:gui ...
-[09May2023 16:54:31.439] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes: jei:gui took 18.60 ?s
-[09May2023 16:54:31.439] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes: jei:debug ...
-[09May2023 16:54:31.439] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes: jei:debug took 5.800 ?s
-[09May2023 16:54:31.439] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes: jei:forge_gui ...
-[09May2023 16:54:31.439] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes: jei:forge_gui took 5.400 ?s
-[09May2023 16:54:31.440] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes: jei:internal ...
-[09May2023 16:54:31.440] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes: jei:internal took 5.700 ?s
-[09May2023 16:54:31.440] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes: jei:minecraft ...
-[09May2023 16:54:31.440] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes: jei:minecraft took 22.60 ?s
-[09May2023 16:54:31.440] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes: blue_skies:jei_plugin ...
-[09May2023 16:54:31.440] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes: blue_skies:jei_plugin took 6.900 ?s
-[09May2023 16:54:31.441] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes: create:jei_plugin ...
-[09May2023 16:54:31.443] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes: create:jei_plugin took 2.283 ms
-[09May2023 16:54:31.444] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes: jei:gui ...
-[09May2023 16:54:31.444] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes: jei:gui took 7.600 ?s
-[09May2023 16:54:31.444] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes: jei:debug ...
-[09May2023 16:54:31.444] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes: jei:debug took 903.3 ?s
-[09May2023 16:54:31.444] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes: jei:forge_gui ...
-[09May2023 16:54:31.444] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes: jei:forge_gui took 6.400 ?s
-[09May2023 16:54:31.444] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes: jei:internal ...
-[09May2023 16:54:31.444] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes: jei:internal took 6.300 ?s
-[09May2023 16:54:31.449] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients: jei:minecraft ...
-[09May2023 16:54:31.536] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients: jei:minecraft took 86.67 ms
-[09May2023 16:54:31.536] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients: blue_skies:jei_plugin ...
-[09May2023 16:54:31.541] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients: blue_skies:jei_plugin took 4.853 ms
-[09May2023 16:54:31.541] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients: create:jei_plugin ...
-[09May2023 16:54:31.541] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients: create:jei_plugin took 10.40 ?s
-[09May2023 16:54:31.541] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients: jei:gui ...
-[09May2023 16:54:31.542] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients: jei:gui took 8.400 ?s
-[09May2023 16:54:31.542] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients: jei:debug ...
-[09May2023 16:54:31.544] [Render thread/INFO] [mezz.jei.core.config.file.ConfigSerializer/]: Loading config file: C:\Users\Administrator\Documents\create_blue_skies_compat\run\config\jei\jei-debug.ini
-[09May2023 16:54:31.547] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients: jei:debug took 4.617 ms
-[09May2023 16:54:31.547] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients: jei:forge_gui ...
-[09May2023 16:54:31.547] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients: jei:forge_gui took 8.700 ?s
-[09May2023 16:54:31.547] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients: jei:internal ...
-[09May2023 16:54:31.547] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients: jei:internal took 5.800 ?s
-[09May2023 16:54:31.563] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories: jei:minecraft ...
-[09May2023 16:54:31.611] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories: jei:minecraft took 47.55 ms
-[09May2023 16:54:31.611] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories: blue_skies:jei_plugin ...
-[09May2023 16:54:31.617] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories: blue_skies:jei_plugin took 5.165 ms
-[09May2023 16:54:31.617] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories: create:jei_plugin ...
-[09May2023 16:54:31.656] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories: create:jei_plugin took 39.17 ms
-[09May2023 16:54:31.656] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories: jei:gui ...
-[09May2023 16:54:31.656] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories: jei:gui took 7.600 ?s
-[09May2023 16:54:31.656] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories: jei:debug ...
-[09May2023 16:54:31.656] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories: jei:debug took 9.500 ?s
-[09May2023 16:54:31.656] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories: jei:forge_gui ...
-[09May2023 16:54:31.656] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories: jei:forge_gui took 4.800 ?s
-[09May2023 16:54:31.656] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories: jei:internal ...
-[09May2023 16:54:31.657] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories: jei:internal took 789.4 ?s
-[09May2023 16:54:31.658] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions: jei:minecraft ...
-[09May2023 16:54:31.659] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions: jei:minecraft took 1.195 ms
-[09May2023 16:54:31.659] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions: blue_skies:jei_plugin ...
-[09May2023 16:54:31.659] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions: blue_skies:jei_plugin took 5.200 ?s
-[09May2023 16:54:31.659] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions: create:jei_plugin ...
-[09May2023 16:54:31.659] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions: create:jei_plugin took 4.400 ?s
-[09May2023 16:54:31.659] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions: jei:gui ...
-[09May2023 16:54:31.659] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions: jei:gui took 4.700 ?s
-[09May2023 16:54:31.659] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions: jei:debug ...
-[09May2023 16:54:31.660] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions: jei:debug took 4.500 ?s
-[09May2023 16:54:31.660] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions: jei:forge_gui ...
-[09May2023 16:54:31.660] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions: jei:forge_gui took 5.600 ?s
-[09May2023 16:54:31.660] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions: jei:internal ...
-[09May2023 16:54:31.660] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions: jei:internal took 6.400 ?s
-[09May2023 16:54:31.663] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts: jei:minecraft ...
-[09May2023 16:54:31.664] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts: jei:minecraft took 989.1 ?s
-[09May2023 16:54:31.664] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts: blue_skies:jei_plugin ...
-[09May2023 16:54:31.664] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts: blue_skies:jei_plugin took 60.40 ?s
-[09May2023 16:54:31.664] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts: create:jei_plugin ...
-[09May2023 16:54:31.666] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts: create:jei_plugin took 1.639 ms
-[09May2023 16:54:31.666] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts: jei:gui ...
-[09May2023 16:54:31.666] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts: jei:gui took 5.500 ?s
-[09May2023 16:54:31.666] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts: jei:debug ...
-[09May2023 16:54:31.666] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts: jei:debug took 11.10 ?s
-[09May2023 16:54:31.667] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts: jei:forge_gui ...
-[09May2023 16:54:31.667] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts: jei:forge_gui took 36.10 ?s
-[09May2023 16:54:31.667] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts: jei:internal ...
-[09May2023 16:54:31.667] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts: jei:internal took 6.500 ?s
-[09May2023 16:54:31.669] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins: jei:minecraft ...
-[09May2023 16:54:31.669] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins: jei:minecraft took 45.20 ?s
-[09May2023 16:54:31.669] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins: blue_skies:jei_plugin ...
-[09May2023 16:54:31.669] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins: blue_skies:jei_plugin took 4.800 ?s
-[09May2023 16:54:31.669] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins: create:jei_plugin ...
-[09May2023 16:54:31.669] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins: create:jei_plugin took 4.100 ?s
-[09May2023 16:54:31.669] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins: jei:gui ...
-[09May2023 16:54:31.669] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins: jei:gui took 3.800 ?s
-[09May2023 16:54:31.669] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins: jei:debug ...
-[09May2023 16:54:31.669] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins: jei:debug took 3.900 ?s
-[09May2023 16:54:31.670] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins: jei:forge_gui ...
-[09May2023 16:54:31.670] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins: jei:forge_gui took 3.700 ?s
-[09May2023 16:54:31.670] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins: jei:internal ...
-[09May2023 16:54:31.670] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins: jei:internal took 4.300 ?s
-[09May2023 16:54:31.670] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building recipe registry...
-[09May2023 16:54:31.689] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building recipe registry took 19.89 ms
-[09May2023 16:54:31.691] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes: jei:minecraft ...
-[09May2023 16:54:32.039] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes: jei:minecraft took 348.2 ms
-[09May2023 16:54:32.039] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes: blue_skies:jei_plugin ...
-[09May2023 16:54:32.040] [Render thread/INFO] [mezz.jei.library.ingredients.IngredientManager/]: Ingredients are being removed at runtime: 13 net.minecraft.world.item.ItemStack
-[09May2023 16:54:32.093] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes: blue_skies:jei_plugin took 52.84 ms
-[09May2023 16:54:32.093] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes: create:jei_plugin ...
-[09May2023 16:54:32.276] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes: create:jei_plugin took 183.7 ms
-[09May2023 16:54:32.276] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes: jei:gui ...
-[09May2023 16:54:32.276] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes: jei:gui took 5.500 ?s
-[09May2023 16:54:32.276] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes: jei:debug ...
-[09May2023 16:54:32.276] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes: jei:debug took 7.200 ?s
-[09May2023 16:54:32.276] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes: jei:forge_gui ...
-[09May2023 16:54:32.276] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes: jei:forge_gui took 3.300 ?s
-[09May2023 16:54:32.276] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes: jei:internal ...
-[09May2023 16:54:32.277] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes: jei:internal took 3.100 ?s
-[09May2023 16:54:32.286] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers: jei:minecraft ...
-[09May2023 16:54:32.292] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers: jei:minecraft took 5.602 ms
-[09May2023 16:54:32.292] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers: blue_skies:jei_plugin ...
-[09May2023 16:54:32.292] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers: blue_skies:jei_plugin took 24.10 ?s
-[09May2023 16:54:32.292] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers: create:jei_plugin ...
-[09May2023 16:54:32.293] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers: create:jei_plugin took 1.619 ms
-[09May2023 16:54:32.293] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers: jei:gui ...
-[09May2023 16:54:32.293] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers: jei:gui took 4.200 ?s
-[09May2023 16:54:32.293] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers: jei:debug ...
-[09May2023 16:54:32.294] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers: jei:debug took 3.300 ?s
-[09May2023 16:54:32.294] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers: jei:forge_gui ...
-[09May2023 16:54:32.294] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers: jei:forge_gui took 22.80 ?s
-[09May2023 16:54:32.294] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers: jei:internal ...
-[09May2023 16:54:32.294] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers: jei:internal took 5.100 ?s
-[09May2023 16:54:32.309] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building runtime...
-[09May2023 16:54:32.314] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers: jei:minecraft ...
-[09May2023 16:54:32.319] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers: jei:minecraft took 5.634 ms
-[09May2023 16:54:32.320] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers: blue_skies:jei_plugin ...
-[09May2023 16:54:32.322] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers: blue_skies:jei_plugin took 1.360 ms
-[09May2023 16:54:32.322] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers: create:jei_plugin ...
-[09May2023 16:54:32.324] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers: create:jei_plugin took 2.626 ms
-[09May2023 16:54:32.325] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers: jei:gui ...
-[09May2023 16:54:32.339] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers: jei:gui took 14.09 ms
-[09May2023 16:54:32.339] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers: jei:debug ...
-[09May2023 16:54:32.339] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers: jei:debug took 10.50 ?s
-[09May2023 16:54:32.339] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers: jei:forge_gui ...
-[09May2023 16:54:32.339] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers: jei:forge_gui took 5.900 ?s
-[09May2023 16:54:32.339] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers: jei:internal ...
-[09May2023 16:54:32.339] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers: jei:internal took 3.200 ?s
-[09May2023 16:54:32.351] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime: jei:minecraft ...
-[09May2023 16:54:32.351] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime: jei:minecraft took 17.70 ?s
-[09May2023 16:54:32.351] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime: blue_skies:jei_plugin ...
-[09May2023 16:54:32.352] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime: blue_skies:jei_plugin took 8.900 ?s
-[09May2023 16:54:32.352] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime: create:jei_plugin ...
-[09May2023 16:54:32.352] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime: create:jei_plugin took 3.200 ?s
-[09May2023 16:54:32.352] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime: jei:gui ...
-[09May2023 16:54:32.352] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime: jei:gui took 2.900 ?s
-[09May2023 16:54:32.352] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime: jei:debug ...
-[09May2023 16:54:32.352] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime: jei:debug took 3.000 ?s
-[09May2023 16:54:32.352] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime: jei:forge_gui ...
-[09May2023 16:54:32.354] [Render thread/INFO] [mezz.jei.gui.startup.JeiGuiStarter/]: Starting JEI GUI
-[09May2023 16:54:32.355] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building ingredient list...
-[09May2023 16:54:32.363] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building ingredient list took 7.561 ms
-[09May2023 16:54:32.363] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building ingredient filter...
-[09May2023 16:54:32.433] [Render thread/INFO] [mezz.jei.core.config.file.ConfigSerializer/]: Loading config file: C:\Users\Administrator\Documents\create_blue_skies_compat\run\config\jei\jei-client.ini
-[09May2023 16:54:32.448] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Adding 2660 ingredients
-[09May2023 16:54:32.704] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Added 2660 ingredients
-[09May2023 16:54:32.707] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building ingredient filter took 343.3 ms
-[09May2023 16:54:32.810] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime: jei:forge_gui took 458.4 ms
-[09May2023 16:54:32.810] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime: jei:internal ...
-[09May2023 16:54:32.810] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime: jei:internal took 4.500 ?s
-[09May2023 16:54:32.811] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building runtime took 502.4 ms
-[09May2023 16:54:32.812] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime: jei:minecraft ...
-[09May2023 16:54:32.812] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime: jei:minecraft took 17.40 ?s
-[09May2023 16:54:32.812] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime: blue_skies:jei_plugin ...
-[09May2023 16:54:32.812] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime: blue_skies:jei_plugin took 3.300 ?s
-[09May2023 16:54:32.812] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime: create:jei_plugin ...
-[09May2023 16:54:32.812] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime: create:jei_plugin took 3.200 ?s
-[09May2023 16:54:32.812] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime: jei:gui ...
-[09May2023 16:54:32.813] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime: jei:gui took 3.000 ?s
-[09May2023 16:54:32.813] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime: jei:debug ...
-[09May2023 16:54:32.813] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime: jei:debug took 6.400 ?s
-[09May2023 16:54:32.813] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime: jei:forge_gui ...
-[09May2023 16:54:32.813] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime: jei:forge_gui took 3.000 ?s
-[09May2023 16:54:32.813] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime: jei:internal ...
-[09May2023 16:54:32.813] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime: jei:internal took 2.700 ?s
-[09May2023 16:54:32.813] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Starting JEI took 1.427 s
-[09May2023 16:54:32.876] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 0 advancements
-[09May2023 16:54:33.593] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[09May2023 16:54:33.626] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[09May2023 16:54:33.649] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/blue_skies:everbright
-[09May2023 16:54:33.651] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[09May2023 16:54:33.652] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/blue_skies:everdawn
-[09May2023 16:54:33.655] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[09May2023 16:54:40.663] [Render thread/INFO] [mezz.jei.core.config.file.ConfigSerializer/]: Loading config file: C:\Users\Administrator\Documents\create_blue_skies_compat\run\config\jei\jei-mod-id-format.ini
-[09May2023 16:55:02.243] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Saving and pausing game...
-[09May2023 16:55:02.249] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[09May2023 16:55:02.251] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/blue_skies:everbright
-[09May2023 16:55:02.252] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[09May2023 16:55:02.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/blue_skies:everdawn
-[09May2023 16:55:02.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[09May2023 16:55:02.925] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
-[09May2023 16:55:02.927] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingOut
-[09May2023 16:55:02.927] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from JEI_STARTED to DISABLED
-[09May2023 16:55:02.927] [Render thread/INFO] [mezz.jei.library.startup.JeiStarter/]: Stopping JEI
-[09May2023 16:55:02.928] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable: jei:minecraft ...
-[09May2023 16:55:02.928] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable: jei:minecraft took 9.300 ?s
-[09May2023 16:55:02.928] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable: blue_skies:jei_plugin ...
-[09May2023 16:55:02.928] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable: blue_skies:jei_plugin took 2.700 ?s
-[09May2023 16:55:02.928] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable: create:jei_plugin ...
-[09May2023 16:55:02.928] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable: create:jei_plugin took 2.500 ?s
-[09May2023 16:55:02.928] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable: jei:gui ...
-[09May2023 16:55:02.928] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable: jei:gui took 2.500 ?s
-[09May2023 16:55:02.928] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable: jei:debug ...
-[09May2023 16:55:02.928] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable: jei:debug took 2.500 ?s
-[09May2023 16:55:02.928] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable: jei:forge_gui ...
-[09May2023 16:55:02.928] [Render thread/INFO] [mezz.jei.forge.plugins.forge.ForgeGuiPlugin/]: Stopping JEI GUI
-[09May2023 16:55:02.930] [JEI GUI Config file watcher/INFO] [mezz.jei.core.config.file.FileWatcherThread/]: FileWatcher was interrupted, stopping.
-[09May2023 16:55:02.931] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable: jei:forge_gui took 2.949 ms
-[09May2023 16:55:02.931] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable: jei:internal ...
-[09May2023 16:55:02.931] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable: jei:internal took 2.900 ?s
-[09May2023 16:55:02.932] [JEI Library Config file watcher/INFO] [mezz.jei.core.config.file.FileWatcherThread/]: FileWatcher was interrupted, stopping.
-[09May2023 16:55:02.946] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
-[09May2023 16:55:02.946] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
-[09May2023 16:55:02.954] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
-[09May2023 16:55:02.993] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
-[09May2023 16:55:02.994] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
-[09May2023 16:55:02.994] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
-[09May2023 16:55:03.468] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
-[09May2023 16:55:03.676] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/blue_skies:everbright
-[09May2023 16:55:03.678] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
-[09May2023 16:55:03.679] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/blue_skies:everdawn
-[09May2023 16:55:03.679] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
-[09May2023 16:55:03.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World (1)): All chunks are saved
-[09May2023 16:55:03.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (everbright): All chunks are saved
-[09May2023 16:55:03.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[09May2023 16:55:03.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (everdawn): All chunks are saved
-[09May2023 16:55:03.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[09May2023 16:55:03.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[18May2023 20:30:36.815] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeclientuserdev, --version, MOD_DEV, --assetIndex, 1.19, --assetsDir, C:\Users\Administrator\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 43.2.2, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
+[18May2023 20:30:36.820] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 17.0.5 by Eclipse Adoptium; OS Windows 10 arch amd64 version 10.0
+[18May2023 20:30:37.007] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/Administrator/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23130!/ Service=ModLauncher Env=CLIENT
+[18May2023 20:30:37.337] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.19.2-43.2.2\389ec079104374249fd1e58f4b400f74d268ecab\javafmllanguage-1.19.2-43.2.2.jar is missing mods.toml file
+[18May2023 20:30:37.345] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.19.2-43.2.2\d54f190464095c16d6ac83088ed38f77e201cb7\lowcodelanguage-1.19.2-43.2.2.jar is missing mods.toml file
+[18May2023 20:30:37.354] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.19.2-43.2.2\e9a887019dfaaad397bcc84175024325490626c2\mclanguage-1.19.2-43.2.2.jar is missing mods.toml file
+[18May2023 20:30:37.363] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\Administrator\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.19.2-43.2.2\87757e0e28c54b2308021b5304033bd5e59e9b7c\fmlcore-1.19.2-43.2.2.jar is missing mods.toml file
+[18May2023 20:30:37.658] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[18May2023 20:30:39.600] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[18May2023 20:30:39.611] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeclientuserdev' with arguments [--version, MOD_DEV, --gameDir, ., --assetsDir, C:\Users\Administrator\.gradle\caches\forge_gradle\assets, --assetIndex, 1.19]
+[18May2023 20:30:40.071] [main/INFO] [mixin/]: Remapping refMap flywheel.refmap.json using C:\Users\Administrator\Documents\totw_modded\build\createSrgToMcp\output.srg
+[18May2023 20:30:40.079] [main/INFO] [mixin/]: Remapping refMap infernal-expansion.refmap.json using C:\Users\Administrator\Documents\totw_modded\build\createSrgToMcp\output.srg
+[18May2023 20:30:40.082] [main/INFO] [mixin/]: Remapping refMap create.refmap.json using C:\Users\Administrator\Documents\totw_modded\build\createSrgToMcp\output.srg
+[18May2023 20:30:40.287] [main/WARN] [mixin/]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/data/ChunkRenderData$Builder (java.lang.ClassNotFoundException: me.jellysquid.mods.sodium.client.render.chunk.data.ChunkRenderData$Builder)
+[18May2023 20:30:40.288] [main/WARN] [mixin/]: @Mixin target me.jellysquid.mods.sodium.client.render.chunk.data.ChunkRenderData$Builder was not found flywheel.mixins.json:instancemanage.SodiumChunkRenderDataMixin
+[18May2023 20:30:40.408] [main/WARN] [mixin/]: Error loading class: net/minecraft/client/renderer/item/ItemProperties$static$1 (java.lang.ClassNotFoundException: net.minecraft.client.renderer.item.ItemProperties$static$1)
+[18May2023 20:30:40.408] [main/WARN] [mixin/]: @Mixin target net.minecraft.client.renderer.item.ItemProperties$static$1 was not found infernal-expansion.mixins.json:client.MixinItemProperties
+[18May2023 20:30:44.463] [pool-3-thread-1/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[18May2023 20:30:45.300] [pool-3-thread-1/WARN] [mixin/]: @ModifyVariable(@At("INVOKE")) Shift.BY=4 on infernal-expansion.mixins.json:common.MixinMultiNoiseBiomeSourcePreset::localvar$zbe000$IE_addNetherBiomes exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[18May2023 20:30:46.069] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/Administrator/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.2.2_mapped_official_1.19.2/forge-1.19.2-43.2.2_mapped_official_1.19.2-recomp.jar%23188!/assets/.mcassetsroot' uses unexpected schema
+[18May2023 20:30:46.069] [Render thread/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/C:/Users/Administrator/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.19.2-43.2.2_mapped_official_1.19.2/forge-1.19.2-43.2.2_mapped_official_1.19.2-recomp.jar%23188!/data/.mcassetsroot' uses unexpected schema
+[18May2023 20:30:46.088] [Render thread/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[18May2023 20:30:46.092] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Setting user: Dev
+[18May2023 20:30:46.177] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Backend library: LWJGL version 3.3.1 build 7
+[18May2023 20:30:46.726] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.2.2, for MC 1.19.2 with MCP 20220805.130853
+[18May2023 20:30:46.726] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.2.2 Initialized
+[18May2023 20:30:46.726] [modloading-worker-0/INFO] [org.infernalstudios.infernalexp.InfernalExpansion/]: Infernal Expansion: Sound Events Registered!
+[18May2023 20:30:46.749] [modloading-worker-0/INFO] [com.jozufozu.flywheel.backend.Backend/]: No shaders mod detected.
+[18May2023 20:30:46.867] [modloading-worker-0/INFO] [org.infernalstudios.infernalexp.InfernalExpansion/]: Infernal Expansion: Blocks Registered!
+[18May2023 20:30:46.867] [modloading-worker-0/INFO] [org.infernalstudios.infernalexp.InfernalExpansion/]: Infernal Expansion: Items Registered!
+[18May2023 20:30:46.869] [modloading-worker-0/INFO] [org.infernalstudios.infernalexp.InfernalExpansion/]: Infernal Expansion: Effects Registered!
+[18May2023 20:30:46.871] [modloading-worker-0/INFO] [org.infernalstudios.infernalexp.InfernalExpansion/]: Infernal Expansion: Potions Registered!
+[18May2023 20:30:46.884] [modloading-worker-0/INFO] [org.infernalstudios.infernalexp.InfernalExpansion/]: Infernal Expansion: Entity Types Registered!
+[18May2023 20:30:46.893] [modloading-worker-0/INFO] [org.infernalstudios.infernalexp.InfernalExpansion/]: Infernal Expansion: Painting Types Registered!
+[18May2023 20:30:46.895] [modloading-worker-0/INFO] [org.infernalstudios.infernalexp.InfernalExpansion/]: Infernal Expansion: Tile Entity Types Registered!
+[18May2023 20:30:46.895] [modloading-worker-0/INFO] [org.infernalstudios.infernalexp.InfernalExpansion/]: Infernal Expansion: Biomes Registered!
+[18May2023 20:30:46.897] [modloading-worker-0/INFO] [org.infernalstudios.infernalexp.InfernalExpansion/]: Infernal Expansion: Loot Modifiers Registered!
+[18May2023 20:30:46.922] [modloading-worker-0/INFO] [org.infernalstudios.infernalexp.InfernalExpansion/]: Infernal Expansion: Biome Modifiers Registered!
+[18May2023 20:30:46.937] [modloading-worker-0/INFO] [org.infernalstudios.infernalexp.InfernalExpansion/]: Infernal Expansion: Entity Classifications Registered!
+[18May2023 20:30:49.751] [Render thread/WARN] [net.minecraft.network.syncher.SynchedEntityData/]: defineId called for: class org.infernalstudios.infernalexp.entities.ShroomloinEntity from class org.infernalstudios.infernalexp.entities.WarpbeetleEntity
+[18May2023 20:30:49.993] [Render thread/INFO] [org.infernalstudios.infernalexp.InfernalExpansion/]: Infernal Expansion: Particles Registered!
+[18May2023 20:30:50.039] [Render thread/INFO] [net.minecraftforge.gametest.ForgeGameTestHooks/]: Enabled Gametest Namespaces: [totw_modded]
+[18May2023 20:30:50.487] [Render thread/INFO] [net.minecraft.server.packs.resources.ReloadableResourceManager/]: Reloading ResourceManager: Default, Mod Resources
+[18May2023 20:30:50.537] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\Administrator\Documents\GitHub\create_infernalexp_compat\run\config\flywheel-client.toml is not correct. Correcting
+[18May2023 20:30:50.541] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key backend was corrected from null to its default, INSTANCING. 
+[18May2023 20:30:50.543] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key debugNormals was corrected from null to its default, false. 
+[18May2023 20:30:50.544] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key limitUpdates was corrected from null to its default, true. 
+[18May2023 20:30:50.556] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\Administrator\Documents\GitHub\create_infernalexp_compat\run\config\forge-client.toml is not correct. Correcting
+[18May2023 20:30:50.557] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2023 20:30:50.557] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.alwaysSetupTerrainOffThread was corrected from null to its default, false. 
+[18May2023 20:30:50.557] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.experimentalForgeLightPipelineEnabled was corrected from null to its default, false. 
+[18May2023 20:30:50.557] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.showLoadWarnings was corrected from null to its default, true. 
+[18May2023 20:30:50.557] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.useCombinedDepthStencilAttachment was corrected from null to its default, false. 
+[18May2023 20:30:50.558] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.compressLanIPv6Addresses was corrected from null to its default, true. 
+[18May2023 20:30:50.564] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\Administrator\Documents\GitHub\create_infernalexp_compat\run\config\infernalexp-client.toml is not correct. Correcting
+[18May2023 20:30:50.564] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2023 20:30:50.564] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.luminousRefreshDelay was corrected from null to its default, 2. 
+[18May2023 20:30:50.588] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\Administrator\Documents\GitHub\create_infernalexp_compat\run\config\create-client.toml is not correct. Correcting
+[18May2023 20:30:50.590] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2023 20:30:50.591] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.enableTooltips was corrected from null to its default, true. 
+[18May2023 20:30:50.592] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.enableOverstressedTooltip was corrected from null to its default, true. 
+[18May2023 20:30:50.592] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.explainRenderErrors was corrected from null to its default, false. 
+[18May2023 20:30:50.592] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.fanParticleDensity was corrected from null to its default, 0.5. 
+[18May2023 20:30:50.592] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.filterItemRenderDistance was corrected from null to its default, 10.0. 
+[18May2023 20:30:50.593] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.enableRainbowDebug was corrected from null to its default, false. 
+[18May2023 20:30:50.594] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.maximumContraptionLightVolume was corrected from null to its default, 16384. 
+[18May2023 20:30:50.595] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.mainMenuConfigButtonRow was corrected from null to its default, 2. 
+[18May2023 20:30:50.595] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.mainMenuConfigButtonOffsetX was corrected from null to its default, -4. 
+[18May2023 20:30:50.595] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.ingameMenuConfigButtonRow was corrected from null to its default, 3. 
+[18May2023 20:30:50.595] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.ingameMenuConfigButtonOffsetX was corrected from null to its default, -4. 
+[18May2023 20:30:50.596] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.ignoreFabulousWarning was corrected from null to its default, false. 
+[18May2023 20:30:50.596] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.goggleOverlay was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2023 20:30:50.596] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.goggleOverlay.overlayOffsetX was corrected from null to its default, 20. 
+[18May2023 20:30:50.597] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.goggleOverlay.overlayOffsetY was corrected from null to its default, 0. 
+[18May2023 20:30:50.597] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.goggleOverlay.customColorsOverlay was corrected from null to its default, false. 
+[18May2023 20:30:50.597] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.goggleOverlay.customBackgroundOverlay was corrected from null to its default, -267386864. 
+[18May2023 20:30:50.598] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.goggleOverlay.customBorderTopOverlay was corrected from null to its default, 1347420415. 
+[18May2023 20:30:50.599] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.goggleOverlay.customBorderBotOverlay was corrected from null to its default, 1344798847. 
+[18May2023 20:30:50.599] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.placementAssist was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2023 20:30:50.599] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.placementAssist.indicatorType was corrected from null to its default, TEXTURE. 
+[18May2023 20:30:50.599] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.placementAssist.indicatorScale was corrected from null to its default, 1.0. 
+[18May2023 20:30:50.600] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.ponder was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2023 20:30:50.600] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.ponder.comfyReading was corrected from null to its default, false. 
+[18May2023 20:30:50.600] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.ponder.editingMode was corrected from null to its default, false. 
+[18May2023 20:30:50.600] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.sound was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2023 20:30:50.600] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.sound.enableAmbientSounds was corrected from null to its default, true. 
+[18May2023 20:30:50.601] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.sound.ambientVolumeCap was corrected from null to its default, 0.10000000149011612. 
+[18May2023 20:30:50.601] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.trains was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2023 20:30:50.601] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.trains.mountedZoomMultiplier was corrected from null to its default, 3.0. 
+[18May2023 20:30:50.601] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key client.trains.showTrackGraphOnF3 was corrected from null to its default, false. 
+[18May2023 20:30:50.623] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\Administrator\Documents\GitHub\create_infernalexp_compat\run\config\forge-common.toml is not correct. Correcting
+[18May2023 20:30:50.624] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2023 20:30:50.624] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.cachePackAccess was corrected from null to its default, true. 
+[18May2023 20:30:50.624] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.indexVanillaPackCachesOnThread was corrected from null to its default, false. 
+[18May2023 20:30:50.624] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key general.indexModPackCachesOnThread was corrected from null to its default, false. 
+[18May2023 20:30:50.628] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\Administrator\Documents\GitHub\create_infernalexp_compat\run\config\infernalexp-common.toml is not correct. Correcting
+[18May2023 20:30:50.629] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2023 20:30:50.629] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.piglinFearWarpbeetle was corrected from null to its default, true. 
+[18May2023 20:30:50.629] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.piglinFearEmbody was corrected from null to its default, true. 
+[18May2023 20:30:50.629] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.piglinFearDwarf was corrected from null to its default, true. 
+[18May2023 20:30:50.629] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.hoglinFearWarpbeetle was corrected from null to its default, true. 
+[18May2023 20:30:50.629] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.hoglinFearEmbody was corrected from null to its default, true. 
+[18May2023 20:30:50.629] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.spiderAttackWarpbeetle was corrected from null to its default, true. 
+[18May2023 20:30:50.630] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.skeletonAttackPiglin was corrected from null to its default, true. 
+[18May2023 20:30:50.630] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.skeletonAttackBrute was corrected from null to its default, true. 
+[18May2023 20:30:50.630] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.skeletonAttackEmbody was corrected from null to its default, true. 
+[18May2023 20:30:50.630] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.skeletonAttackGiant was corrected from null to its default, true. 
+[18May2023 20:30:50.630] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.piglinAttackSkeleton was corrected from null to its default, true. 
+[18May2023 20:30:50.630] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.piglinAttackVoline was corrected from null to its default, true. 
+[18May2023 20:30:50.630] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.bruteAttackSkeleton was corrected from null to its default, true. 
+[18May2023 20:30:50.630] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.bruteAttackVoline was corrected from null to its default, true. 
+[18May2023 20:30:50.630] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.ghastAttackEmbody was corrected from null to its default, false. 
+[18May2023 20:30:50.630] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.ghastAttackVoline was corrected from null to its default, false. 
+[18May2023 20:30:50.630] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.ghastAttackSkeleton was corrected from null to its default, false. 
+[18May2023 20:30:50.630] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.ghastAttackGlowsquito was corrected from null to its default, false. 
+[18May2023 20:30:50.631] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.glowsquitoAttackDwarf was corrected from null to its default, true. 
+[18May2023 20:30:50.631] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.glowsquitoAttackLuminous was corrected from null to its default, true. 
+[18May2023 20:30:50.631] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.dwarfAttackPiglin was corrected from null to its default, true. 
+[18May2023 20:30:50.631] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.dwarfAttackZombiePiglin was corrected from null to its default, true. 
+[18May2023 20:30:50.631] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.dwarfAttackPlayer was corrected from null to its default, true. 
+[18May2023 20:30:50.631] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.blindsightAttackGlowsquito was corrected from null to its default, true. 
+[18May2023 20:30:50.631] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.blindsightAttackPlayer was corrected from null to its default, true. 
+[18May2023 20:30:50.631] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.giantAttackMagmaCube was corrected from null to its default, true. 
+[18May2023 20:30:50.631] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.embodyAttackPiglin was corrected from null to its default, true. 
+[18May2023 20:30:50.631] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.embodyAttackPlayer was corrected from null to its default, true. 
+[18May2023 20:30:50.631] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.volineAttackFireResistance was corrected from null to its default, true. 
+[18May2023 20:30:50.631] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.volineAttackPlayer was corrected from null to its default, true. 
+[18May2023 20:30:50.631] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.volineAttackMagmaCube was corrected from null to its default, true. 
+[18May2023 20:30:50.631] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.useHogchops was corrected from null to its default, true. 
+[18May2023 20:30:50.631] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Interactions.glowsilkSpeed was corrected from null to its default, 1.3. 
+[18May2023 20:30:50.632] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Spawning was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2023 20:30:50.633] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Spawning.Spawnable Biomes was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2023 20:30:50.633] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Spawning.Spawnable Biomes.volineBiomes was corrected from null to its default, minecraft:nether_wastes, minecraft:crimson_forest, byg:magma_wastes. 
+[18May2023 20:30:50.633] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Spawning.Spawnable Biomes.warpbeetleBiomes was corrected from null to its default, minecraft:warped_forest, byg:warped_desert. 
+[18May2023 20:30:50.633] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Spawning.Spawnable Biomes.shroomloinBiomes was corrected from null to its default, minecraft:crimson_forest, byg:crimson_gardens, byg:glowstone_gardens, byg:embur_bog, byg:sythian_torrids. 
+[18May2023 20:30:50.633] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Spawning.Spawnable Biomes.basaltGiantBiomes was corrected from null to its default, minecraft:basalt_deltas, infernalexp:delta_shores, byg:magma_wastes. 
+[18May2023 20:30:50.633] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Spawning.Spawnable Biomes.embodyBiomes was corrected from null to its default, minecraft:soul_sand_valley, byg:warped_desert, byg:wailing_garth, byg:withering_woods. 
+[18May2023 20:30:50.633] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Spawning.Spawnable Biomes.glowsquitoBiomes was corrected from null to its default, infernalexp:glowstone_canyon, byg:glowstone_gardens. 
+[18May2023 20:30:50.633] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Spawning.Spawnable Biomes.glowsilkMothBiomes was corrected from null to its default, minecraft:crimson_forest, minecraft:basalt_deltas, infernalexp:glowstone_canyon, byg:glowstone_gardens. 
+[18May2023 20:30:50.634] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Spawning.Spawnable Biomes.blindsightBiomes was corrected from null to its default, infernalexp:glowstone_canyon, byg:glowstone_gardens. 
+[18May2023 20:30:50.634] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Mob Spawning.Spawnable Biomes.blackstoneDwarfBiomes was corrected from null to its default, infernalexp:glowstone_canyon, byg:magma_wastes. 
+[18May2023 20:30:50.635] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Bonemeal Behaviour was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2023 20:30:50.635] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Bonemeal Behaviour.isShroomlightGrowable was corrected from null to its default, true. 
+[18May2023 20:30:50.635] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Bonemeal Behaviour.shroomlightGrowChance was corrected from null to its default, 1.0. 
+[18May2023 20:30:50.637] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Miscellaneous was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2023 20:30:50.637] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Miscellaneous.fireChargeExplosion was corrected from null to its default, true. 
+[18May2023 20:30:50.637] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Miscellaneous.jerkyEffectDuration was corrected from null to its default, 8. 
+[18May2023 20:30:50.637] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Miscellaneous.jerkyEffectAmplifier was corrected from null to its default, 1. 
+[18May2023 20:30:50.637] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Miscellaneous.Luminous Fungus was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2023 20:30:50.637] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Miscellaneous.Luminous Fungus.luminousFungusActivateDistance was corrected from null to its default, 4.0. 
+[18May2023 20:30:50.637] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Miscellaneous.Luminous Fungus.luminousFungusGivesEffect was corrected from null to its default, true. 
+[18May2023 20:30:50.638] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key Miscellaneous.useThrowableBricks was corrected from null to its default, true. 
+[18May2023 20:30:50.671] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file C:\Users\Administrator\Documents\GitHub\create_infernalexp_compat\run\config\create-common.toml is not correct. Correcting
+[18May2023 20:30:50.680] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldgen was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2023 20:30:50.681] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldgen.v2 was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2023 20:30:50.681] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldgen.v2.disableWorldGen was corrected from null to its default, false. 
+[18May2023 20:30:50.683] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldgen.v2.striated_ores_nether was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2023 20:30:50.684] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldgen.v2.striated_ores_nether.clusterSize was corrected from null to its default, 32. 
+[18May2023 20:30:50.684] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldgen.v2.striated_ores_nether.frequency was corrected from null to its default, 0.0833333358168602. 
+[18May2023 20:30:50.684] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldgen.v2.striated_ores_nether.minHeight was corrected from null to its default, 40. 
+[18May2023 20:30:50.684] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldgen.v2.striated_ores_nether.maxHeight was corrected from null to its default, 90. 
+[18May2023 20:30:50.686] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldgen.v2.striated_ores_overworld was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2023 20:30:50.686] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldgen.v2.striated_ores_overworld.clusterSize was corrected from null to its default, 32. 
+[18May2023 20:30:50.686] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldgen.v2.striated_ores_overworld.frequency was corrected from null to its default, 0.0833333358168602. 
+[18May2023 20:30:50.686] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldgen.v2.striated_ores_overworld.minHeight was corrected from null to its default, -30. 
+[18May2023 20:30:50.687] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldgen.v2.striated_ores_overworld.maxHeight was corrected from null to its default, 70. 
+[18May2023 20:30:50.687] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldgen.v2.zinc_ore was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2023 20:30:50.687] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldgen.v2.zinc_ore.clusterSize was corrected from null to its default, 12. 
+[18May2023 20:30:50.695] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldgen.v2.zinc_ore.frequency was corrected from null to its default, 8.0. 
+[18May2023 20:30:50.697] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldgen.v2.zinc_ore.minHeight was corrected from null to its default, -63. 
+[18May2023 20:30:50.697] [modloading-worker-0/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key worldgen.v2.zinc_ore.maxHeight was corrected from null to its default, 70. 
+[18May2023 20:30:50.742] [Worker-Main-15/INFO] [net.celsiusqc.create_infernalexp_compat.CreateInfernalExpCompat/]: HELLO FROM COMMON SETUP
+[18May2023 20:30:50.742] [Worker-Main-15/INFO] [net.celsiusqc.create_infernalexp_compat.CreateInfernalExpCompat/]: DIRT BLOCK >> minecraft:dirt
+[18May2023 20:30:51.265] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[18May2023 20:30:51.828] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: OUTDATED Current: 43.2.2 Target: 43.2.11
+[18May2023 20:30:51.828] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Starting version check at https://api.modrinth.com/updates/flywheel/forge_updates.json
+[18May2023 20:30:52.015] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [flywheel] Found status: AHEAD Current: 0.6.8.a-14 Target: null
+[18May2023 20:30:52.015] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [infernalexp] Starting version check at https://infernalstudios.org/api/mods/infernalexpansion/forge
+[18May2023 20:30:52.139] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [infernalexp] Found status: BETA Current: 2.5.1 Target: null
+[18May2023 20:31:01.444] [Render thread/INFO] [com.jozufozu.flywheel.backend.Backend/]: Loaded all shader sources.
+[18May2023 20:31:03.607] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:item.goat_horn.play
+[18May2023 20:31:03.607] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[18May2023 20:31:03.608] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: infernalexp:entity.skeletal_piglin.ambient
+[18May2023 20:31:03.608] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: infernalexp:entity.skeletal_piglin.hurt
+[18May2023 20:31:03.608] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: infernalexp:entity.skeletal_piglin.death
+[18May2023 20:31:03.608] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: infernalexp:entity.dwarf.ambient
+[18May2023 20:31:03.608] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: infernalexp:entity.dwarf.hurt
+[18May2023 20:31:03.609] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: infernalexp:entity.dwarf.death
+[18May2023 20:31:03.609] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: infernalexp:entity.glaw.ambient
+[18May2023 20:31:03.609] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: infernalexp:entity.glaw.hurt
+[18May2023 20:31:03.609] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: infernalexp:entity.glaw.death
+[18May2023 20:31:03.609] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: infernalexp:entity.smolt.ambient
+[18May2023 20:31:03.609] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: infernalexp:entity.smolt.hurt
+[18May2023 20:31:03.609] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: infernalexp:entity.smolt.death
+[18May2023 20:31:03.609] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: infernalexp:entity.pyrno.ambient
+[18May2023 20:31:03.609] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: infernalexp:entity.pyrno.hurt
+[18May2023 20:31:03.609] [Render thread/WARN] [net.minecraft.client.sounds.SoundEngine/]: Missing sound for event: infernalexp:entity.pyrno.death
+[18May2023 20:31:03.668] [Render thread/INFO] [com.mojang.blaze3d.audio.Library/]: OpenAL initialized on device OpenAL Soft on Line 1 (Virtual Audio Cable)
+[18May2023 20:31:03.669] [Render thread/INFO] [net.minecraft.client.sounds.SoundEngine/SOUNDS]: Sound engine started
+[18May2023 20:31:03.808] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 2048x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[18May2023 20:31:03.815] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x4 minecraft:textures/atlas/signs.png-atlas
+[18May2023 20:31:03.821] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[18May2023 20:31:03.821] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[18May2023 20:31:03.822] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[18May2023 20:31:03.822] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[18May2023 20:31:03.823] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[18May2023 20:31:05.056] [Render thread/WARN] [net.minecraft.client.renderer.ShaderInstance/]: Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[18May2023 20:31:05.342] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[18May2023 20:31:05.344] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[18May2023 20:31:05.344] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[18May2023 20:31:05.347] [Render thread/INFO] [net.minecraft.client.renderer.texture.TextureAtlas/]: Created: 256x128x0 jei:textures/atlas/gui.png-atlas
+[18May2023 20:31:05.618] [Realms Notification Availability checker #1/INFO] [com.mojang.realmsclient.client.RealmsClient/]: Could not authorize you against Realms server: Invalid session id
+[18May2023 20:32:35.271] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe miningmaster:forging/kinetic_tongue_whip as it's serializer returned null
+[18May2023 20:32:35.277] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 22 recipes
+[18May2023 20:32:36.309] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2362 advancements
+[18May2023 20:32:39.452] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe miningmaster:forging/kinetic_tongue_whip as it's serializer returned null
+[18May2023 20:32:39.455] [Render thread/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 22 recipes
+[18May2023 20:32:40.356] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 2362 advancements
+[18May2023 20:32:53.132] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Starting integrated minecraft server version 1.19.2
+[18May2023 20:32:53.132] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[18May2023 20:32:53.256] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\saves\New World\serverconfig\jei-server.toml is not correct. Correcting
+[18May2023 20:32:53.258] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2023 20:32:53.258] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForOp was corrected from null to its default, true. 
+[18May2023 20:32:53.258] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForCreative was corrected from null to its default, true. 
+[18May2023 20:32:53.258] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key cheat mode.enableCheatModeForGive was corrected from null to its default, false. 
+[18May2023 20:32:53.261] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\saves\New World\serverconfig\forge-server.toml is not correct. Correcting
+[18May2023 20:32:53.262] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2023 20:32:53.262] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringBlockEntities was corrected from null to its default, false. 
+[18May2023 20:32:53.262] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.removeErroringEntities was corrected from null to its default, false. 
+[18May2023 20:32:53.262] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fullBoundingBoxLadders was corrected from null to its default, false. 
+[18May2023 20:32:53.262] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBaseSummonChance was corrected from null to its default, 0.1. 
+[18May2023 20:32:53.263] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.zombieBabyChance was corrected from null to its default, 0.05. 
+[18May2023 20:32:53.263] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.fixAdvancementLoading was corrected from null to its default, true. 
+[18May2023 20:32:53.263] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key server.permissionHandler was corrected from null to its default, forge:default_handler. 
+[18May2023 20:32:53.269] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Configuration file .\saves\New World\serverconfig\create-server.toml is not correct. Correcting
+[18May2023 20:32:53.269] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key infrastructure was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2023 20:32:53.269] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key infrastructure.tickrateSyncTimer was corrected from null to its default, 20. 
+[18May2023 20:32:53.270] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2023 20:32:53.270] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.bulkPressing was corrected from null to its default, false. 
+[18May2023 20:32:53.270] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.bulkCutting was corrected from null to its default, false. 
+[18May2023 20:32:53.270] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.allowBrewingInMixer was corrected from null to its default, true. 
+[18May2023 20:32:53.271] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.allowShapelessInMixer was corrected from null to its default, true. 
+[18May2023 20:32:53.271] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.allowShapedSquareInPress was corrected from null to its default, true. 
+[18May2023 20:32:53.271] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.allowRegularCraftingInCrafter was corrected from null to its default, true. 
+[18May2023 20:32:53.271] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.maxFireworkIngredientsInCrafter was corrected from null to its default, 9. 
+[18May2023 20:32:53.271] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.allowStonecuttingOnSaw was corrected from null to its default, true. 
+[18May2023 20:32:53.271] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.allowWoodcuttingOnSaw was corrected from null to its default, true. 
+[18May2023 20:32:53.271] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.allowCastingBySpout was corrected from null to its default, true. 
+[18May2023 20:32:53.271] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.displayLogStrippingRecipes was corrected from null to its default, true. 
+[18May2023 20:32:53.271] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.lightSourceCountForRefinedRadiance was corrected from null to its default, 10. 
+[18May2023 20:32:53.271] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.enableRefinedRadianceRecipe was corrected from null to its default, true. 
+[18May2023 20:32:53.272] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key recipes.enableShadowSteelRecipe was corrected from null to its default, true. 
+[18May2023 20:32:53.273] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2023 20:32:53.273] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.disableStress was corrected from null to its default, false. 
+[18May2023 20:32:53.273] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.maxBeltLength was corrected from null to its default, 20. 
+[18May2023 20:32:53.273] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.crushingDamage was corrected from null to its default, 4. 
+[18May2023 20:32:53.273] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.maxMotorSpeed was corrected from null to its default, 256. 
+[18May2023 20:32:53.274] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.waterWheelBaseSpeed was corrected from null to its default, 4. 
+[18May2023 20:32:53.274] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.waterWheelFlowSpeed was corrected from null to its default, 4. 
+[18May2023 20:32:53.274] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.maxRotationSpeed was corrected from null to its default, 256. 
+[18May2023 20:32:53.274] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.ignoreDeployerAttacks was corrected from null to its default, CREEPERS. 
+[18May2023 20:32:53.274] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.kineticValidationFrequency was corrected from null to its default, 60. 
+[18May2023 20:32:53.274] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.crankHungerMultiplier was corrected from null to its default, 0.009999999776482582. 
+[18May2023 20:32:53.274] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.minimumWindmillSails was corrected from null to its default, 8. 
+[18May2023 20:32:53.274] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.windmillSailsPerRPM was corrected from null to its default, 8. 
+[18May2023 20:32:53.274] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.maxEjectorDistance was corrected from null to its default, 32. 
+[18May2023 20:32:53.274] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.ejectorScanInterval was corrected from null to its default, 120. 
+[18May2023 20:32:53.275] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.encasedFan was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2023 20:32:53.275] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.encasedFan.fanPushDistance was corrected from null to its default, 20. 
+[18May2023 20:32:53.275] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.encasedFan.fanPullDistance was corrected from null to its default, 20. 
+[18May2023 20:32:53.275] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.encasedFan.fanBlockCheckRate was corrected from null to its default, 30. 
+[18May2023 20:32:53.275] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.encasedFan.fanRotationArgmax was corrected from null to its default, 256. 
+[18May2023 20:32:53.275] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.encasedFan.inWorldProcessingTime was corrected from null to its default, 150. 
+[18May2023 20:32:53.275] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2023 20:32:53.275] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.maxBlocksMoved was corrected from null to its default, 2048. 
+[18May2023 20:32:53.275] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.maxDataSize was corrected from null to its default, 2000000. 
+[18May2023 20:32:53.275] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.maxChassisRange was corrected from null to its default, 16. 
+[18May2023 20:32:53.275] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.maxPistonPoles was corrected from null to its default, 64. 
+[18May2023 20:32:53.275] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.maxRopeLength was corrected from null to its default, 256. 
+[18May2023 20:32:53.275] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.maxCartCouplingLength was corrected from null to its default, 32. 
+[18May2023 20:32:53.275] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.survivalContraptionPickup was corrected from null to its default, true. 
+[18May2023 20:32:53.275] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.movableSpawners was corrected from null to its default, NO_PICKUP. 
+[18May2023 20:32:53.275] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.amethystMovement was corrected from null to its default, NO_PICKUP. 
+[18May2023 20:32:53.276] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.movableObsidian was corrected from null to its default, UNMOVABLE. 
+[18May2023 20:32:53.276] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.movableReinforcedDeepslate was corrected from null to its default, UNMOVABLE. 
+[18May2023 20:32:53.276] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.moveItemsToStorage was corrected from null to its default, true. 
+[18May2023 20:32:53.276] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.harvestPartiallyGrown was corrected from null to its default, false. 
+[18May2023 20:32:53.276] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.contraptions.harvesterReplants was corrected from null to its default, true. 
+[18May2023 20:32:53.276] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2023 20:32:53.276] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2 was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2023 20:32:53.276] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2023 20:32:53.276] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.display_board was corrected from null to its default, 0.0. 
+[18May2023 20:32:53.276] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.deployer was corrected from null to its default, 4.0. 
+[18May2023 20:32:53.276] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.mechanical_piston was corrected from null to its default, 4.0. 
+[18May2023 20:32:53.276] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.millstone was corrected from null to its default, 4.0. 
+[18May2023 20:32:53.276] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.mechanical_bearing was corrected from null to its default, 4.0. 
+[18May2023 20:32:53.276] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.clockwork_bearing was corrected from null to its default, 4.0. 
+[18May2023 20:32:53.276] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.cuckoo_clock was corrected from null to its default, 1.0. 
+[18May2023 20:32:53.276] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.speedometer was corrected from null to its default, 0.0. 
+[18May2023 20:32:53.276] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.copper_backtank was corrected from null to its default, 4.0. 
+[18May2023 20:32:53.276] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.mechanical_saw was corrected from null to its default, 4.0. 
+[18May2023 20:32:53.276] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.flywheel was corrected from null to its default, 0.0. 
+[18May2023 20:32:53.276] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.encased_chain_drive was corrected from null to its default, 0.0. 
+[18May2023 20:32:53.276] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.clutch was corrected from null to its default, 0.0. 
+[18May2023 20:32:53.276] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.encased_fan was corrected from null to its default, 2.0. 
+[18May2023 20:32:53.276] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.adjustable_chain_gearshift was corrected from null to its default, 0.0. 
+[18May2023 20:32:53.276] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.mechanical_pump was corrected from null to its default, 4.0. 
+[18May2023 20:32:53.276] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.crushing_wheel was corrected from null to its default, 8.0. 
+[18May2023 20:32:53.276] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.mechanical_mixer was corrected from null to its default, 4.0. 
+[18May2023 20:32:53.276] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.gantry_shaft was corrected from null to its default, 0.0. 
+[18May2023 20:32:53.276] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.rope_pulley was corrected from null to its default, 4.0. 
+[18May2023 20:32:53.276] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.rotation_speed_controller was corrected from null to its default, 0.0. 
+[18May2023 20:32:53.276] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.mechanical_arm was corrected from null to its default, 2.0. 
+[18May2023 20:32:53.277] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.andesite_encased_shaft was corrected from null to its default, 0.0. 
+[18May2023 20:32:53.277] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.mechanical_press was corrected from null to its default, 8.0. 
+[18May2023 20:32:53.277] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.large_cogwheel was corrected from null to its default, 0.0. 
+[18May2023 20:32:53.277] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.mechanical_drill was corrected from null to its default, 4.0. 
+[18May2023 20:32:53.277] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.andesite_encased_large_cogwheel was corrected from null to its default, 0.0. 
+[18May2023 20:32:53.277] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.brass_encased_large_cogwheel was corrected from null to its default, 0.0. 
+[18May2023 20:32:53.277] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.mysterious_cuckoo_clock was corrected from null to its default, 1.0. 
+[18May2023 20:32:53.277] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.stressometer was corrected from null to its default, 0.0. 
+[18May2023 20:32:53.277] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.shaft was corrected from null to its default, 0.0. 
+[18May2023 20:32:53.277] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.brass_encased_shaft was corrected from null to its default, 0.0. 
+[18May2023 20:32:53.277] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.gearshift was corrected from null to its default, 0.0. 
+[18May2023 20:32:53.277] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.turntable was corrected from null to its default, 4.0. 
+[18May2023 20:32:53.277] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.sticky_mechanical_piston was corrected from null to its default, 4.0. 
+[18May2023 20:32:53.277] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.sequenced_gearshift was corrected from null to its default, 0.0. 
+[18May2023 20:32:53.277] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.weighted_ejector was corrected from null to its default, 2.0. 
+[18May2023 20:32:53.277] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.cogwheel was corrected from null to its default, 0.0. 
+[18May2023 20:32:53.277] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.andesite_encased_cogwheel was corrected from null to its default, 0.0. 
+[18May2023 20:32:53.277] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.belt was corrected from null to its default, 0.0. 
+[18May2023 20:32:53.277] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.brass_encased_cogwheel was corrected from null to its default, 0.0. 
+[18May2023 20:32:53.278] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.gearbox was corrected from null to its default, 0.0. 
+[18May2023 20:32:53.278] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.hose_pulley was corrected from null to its default, 4.0. 
+[18May2023 20:32:53.278] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.impact.mechanical_crafter was corrected from null to its default, 2.0. 
+[18May2023 20:32:53.278] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.capacity was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2023 20:32:53.278] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.capacity.blue_valve_handle was corrected from null to its default, 8.0. 
+[18May2023 20:32:53.278] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.capacity.copper_valve_handle was corrected from null to its default, 8.0. 
+[18May2023 20:32:53.278] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.capacity.pink_valve_handle was corrected from null to its default, 8.0. 
+[18May2023 20:32:53.278] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.capacity.hand_crank was corrected from null to its default, 8.0. 
+[18May2023 20:32:53.278] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.capacity.black_valve_handle was corrected from null to its default, 8.0. 
+[18May2023 20:32:53.278] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.capacity.magenta_valve_handle was corrected from null to its default, 8.0. 
+[18May2023 20:32:53.278] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.capacity.white_valve_handle was corrected from null to its default, 8.0. 
+[18May2023 20:32:53.278] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.capacity.yellow_valve_handle was corrected from null to its default, 8.0. 
+[18May2023 20:32:53.278] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.capacity.brown_valve_handle was corrected from null to its default, 8.0. 
+[18May2023 20:32:53.278] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.capacity.cyan_valve_handle was corrected from null to its default, 8.0. 
+[18May2023 20:32:53.278] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.capacity.windmill_bearing was corrected from null to its default, 512.0. 
+[18May2023 20:32:53.278] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.capacity.light_blue_valve_handle was corrected from null to its default, 8.0. 
+[18May2023 20:32:53.278] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.capacity.lime_valve_handle was corrected from null to its default, 8.0. 
+[18May2023 20:32:53.279] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.capacity.purple_valve_handle was corrected from null to its default, 8.0. 
+[18May2023 20:32:53.279] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.capacity.red_valve_handle was corrected from null to its default, 8.0. 
+[18May2023 20:32:53.279] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.capacity.steam_engine was corrected from null to its default, 1024.0. 
+[18May2023 20:32:53.279] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.capacity.creative_motor was corrected from null to its default, 16384.0. 
+[18May2023 20:32:53.279] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.capacity.gray_valve_handle was corrected from null to its default, 8.0. 
+[18May2023 20:32:53.279] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.capacity.water_wheel was corrected from null to its default, 16.0. 
+[18May2023 20:32:53.279] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.capacity.orange_valve_handle was corrected from null to its default, 8.0. 
+[18May2023 20:32:53.279] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.capacity.light_gray_valve_handle was corrected from null to its default, 8.0. 
+[18May2023 20:32:53.279] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.v2.capacity.green_valve_handle was corrected from null to its default, 8.0. 
+[18May2023 20:32:53.279] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.stats was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2023 20:32:53.279] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.stats.mediumSpeed was corrected from null to its default, 30.0. 
+[18May2023 20:32:53.279] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.stats.fastSpeed was corrected from null to its default, 100.0. 
+[18May2023 20:32:53.279] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.stats.mediumStressImpact was corrected from null to its default, 4.0. 
+[18May2023 20:32:53.279] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.stats.highStressImpact was corrected from null to its default, 8.0. 
+[18May2023 20:32:53.279] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.stats.mediumCapacity was corrected from null to its default, 128.0. 
+[18May2023 20:32:53.279] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key kinetics.stressValues.stats.highCapacity was corrected from null to its default, 1024.0. 
+[18May2023 20:32:53.282] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fluids was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2023 20:32:53.282] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fluids.fluidTankCapacity was corrected from null to its default, 8. 
+[18May2023 20:32:53.282] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fluids.fluidTankMaxHeight was corrected from null to its default, 32. 
+[18May2023 20:32:53.282] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fluids.mechanicalPumpRange was corrected from null to its default, 16. 
+[18May2023 20:32:53.282] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fluids.hosePulleyRange was corrected from null to its default, 128. 
+[18May2023 20:32:53.282] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fluids.hosePulleyBlockThreshold was corrected from null to its default, 10000. 
+[18May2023 20:32:53.282] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fluids.fillInfinite was corrected from null to its default, false. 
+[18May2023 20:32:53.282] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fluids.bottomlessFluidMode was corrected from null to its default, ALLOW_BY_TAG. 
+[18May2023 20:32:53.282] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key fluids.placeFluidSourceBlocks was corrected from null to its default, true. 
+[18May2023 20:32:53.285] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key logistics was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2023 20:32:53.285] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key logistics.defaultExtractionLimit was corrected from null to its default, 64. 
+[18May2023 20:32:53.285] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key logistics.defaultExtractionTimer was corrected from null to its default, 8. 
+[18May2023 20:32:53.285] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key logistics.psiTimeout was corrected from null to its default, 20. 
+[18May2023 20:32:53.285] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key logistics.mechanicalArmRange was corrected from null to its default, 5. 
+[18May2023 20:32:53.285] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key logistics.linkRange was corrected from null to its default, 256. 
+[18May2023 20:32:53.285] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key logistics.displayLinkRange was corrected from null to its default, 64. 
+[18May2023 20:32:53.285] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key logistics.vaultCapacity was corrected from null to its default, 20. 
+[18May2023 20:32:53.288] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key schematics was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2023 20:32:53.288] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key schematics.creativePrintIncludesAir was corrected from null to its default, false. 
+[18May2023 20:32:53.288] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key schematics.maxSchematics was corrected from null to its default, 256. 
+[18May2023 20:32:53.288] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key schematics.maxSchematicPacketSize was corrected from null to its default, 1024. 
+[18May2023 20:32:53.288] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key schematics.schematicIdleTimeout was corrected from null to its default, 600. 
+[18May2023 20:32:53.289] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key schematics.schematicannon was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2023 20:32:53.289] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key schematics.schematicannon.schematicannonDelay was corrected from null to its default, 10. 
+[18May2023 20:32:53.289] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key schematics.schematicannon.schematicannonGunpowderWorth was corrected from null to its default, 20.0. 
+[18May2023 20:32:53.289] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key schematics.schematicannon.schematicannonFuelUsage was corrected from null to its default, 0.05000000074505806. 
+[18May2023 20:32:53.291] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key curiosities was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2023 20:32:53.292] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key curiosities.maxSymmetryWandRange was corrected from null to its default, 50. 
+[18May2023 20:32:53.292] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key curiosities.placementAssistRange was corrected from null to its default, 12. 
+[18May2023 20:32:53.292] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key curiosities.toolboxRange was corrected from null to its default, 10. 
+[18May2023 20:32:53.292] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key curiosities.airInBacktank was corrected from null to its default, 900. 
+[18May2023 20:32:53.292] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key curiosities.enchantedBacktankCapacity was corrected from null to its default, 300. 
+[18May2023 20:32:53.292] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key curiosities.maxExtendoGripActions was corrected from null to its default, 1000. 
+[18May2023 20:32:53.293] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key curiosities.maxPotatoCannonShots was corrected from null to its default, 200. 
+[18May2023 20:32:53.295] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2023 20:32:53.296] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains.trainsCauseDamage was corrected from null to its default, true. 
+[18May2023 20:32:53.296] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains.maxTrackPlacementLength was corrected from null to its default, 32. 
+[18May2023 20:32:53.296] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains.maxAssemblyLength was corrected from null to its default, 128. 
+[18May2023 20:32:53.296] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains.maxBogeyCount was corrected from null to its default, 20. 
+[18May2023 20:32:53.296] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains.manualTrainSpeedModifier was corrected from null to its default, 0.75. 
+[18May2023 20:32:53.296] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains.trainStats was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2023 20:32:53.296] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains.trainStats.trainTopSpeed was corrected from null to its default, 28.0. 
+[18May2023 20:32:53.296] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains.trainStats.trainTurningTopSpeed was corrected from null to its default, 14.0. 
+[18May2023 20:32:53.296] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains.trainStats.trainAcceleration was corrected from null to its default, 3.0. 
+[18May2023 20:32:53.296] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains.poweredTrainStats was corrected from null to its default, SimpleCommentedConfig:{}. 
+[18May2023 20:32:53.296] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains.poweredTrainStats.poweredTrainTopSpeed was corrected from null to its default, 40.0. 
+[18May2023 20:32:53.296] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains.poweredTrainStats.poweredTrainTurningTopSpeed was corrected from null to its default, 20.0. 
+[18May2023 20:32:53.296] [Server thread/WARN] [net.minecraftforge.common.ForgeConfigSpec/CORE]: Incorrect key trains.poweredTrainStats.poweredTrainAcceleration was corrected from null to its default, 3.0. 
+[18May2023 20:33:05.576] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[18May2023 20:33:05.581] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[18May2023 20:33:05.598] [Render thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 0 ms
+[18May2023 20:33:05.630] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing view distance to 12, from 10
+[18May2023 20:33:05.632] [Server thread/INFO] [net.minecraft.client.server.IntegratedServer/]: Changing simulation distance to 12, from 0
+[18May2023 20:33:05.765] [Render thread/WARN] [io.netty.util.internal.SystemPropertyUtil/]: Unable to parse the boolean system property 'java.net.preferIPv6Addresses':system - using the default value: false
+[18May2023 20:33:06.234] [Netty Local Client IO #0/INFO] [net.minecraftforge.network.NetworkHooks/]: Connected to a modded server.
+[18May2023 20:33:06.266] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@2d87ca56
+[18May2023 20:33:06.976] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[local:E:104f69bb] logged in with entity id 3 at (-262.5, 68.0, 791.5)
+[18May2023 20:33:07.040] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[18May2023 20:33:07.539] [Render thread/INFO] [BatchExecutor/]: Started 10 worker threads
+[18May2023 20:33:07.576] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingIn
+[18May2023 20:33:07.576] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from DISABLED to ENABLED
+[18May2023 20:33:07.872] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.RecipesUpdatedEvent
+[18May2023 20:33:08.057] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.event.TagsUpdatedEvent
+[18May2023 20:33:08.057] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from ENABLED to JEI_STARTED
+[18May2023 20:33:08.059] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Starting JEI...
+[18May2023 20:33:08.072] [Render thread/INFO] [mezz.jei.core.config.file.ConfigSerializer/]: Saving config file: C:\Users\Administrator\Documents\GitHub\create_infernalexp_compat\run\config\jei\jei-debug.ini
+[18May2023 20:33:08.089] [Render thread/INFO] [mezz.jei.core.config.file.ConfigSerializer/]: Saving config file: C:\Users\Administrator\Documents\GitHub\create_infernalexp_compat\run\config\jei\jei-mod-id-format.ini
+[18May2023 20:33:08.100] [Render thread/INFO] [mezz.jei.core.config.file.ConfigSerializer/]: Saving config file: C:\Users\Administrator\Documents\GitHub\create_infernalexp_compat\run\config\jei\jei-colors.ini
+[18May2023 20:33:08.136] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes: jei:minecraft ...
+[18May2023 20:33:08.142] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes: jei:minecraft took 4.879 ms
+[18May2023 20:33:08.142] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes: create:jei_plugin ...
+[18May2023 20:33:08.142] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes: create:jei_plugin took 5.800 μs
+[18May2023 20:33:08.145] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes: jei:gui ...
+[18May2023 20:33:08.145] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes: jei:gui took 42.70 μs
+[18May2023 20:33:08.145] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes: jei:debug ...
+[18May2023 20:33:08.146] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes: jei:debug took 7.100 μs
+[18May2023 20:33:08.146] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes: jei:forge_gui ...
+[18May2023 20:33:08.146] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes: jei:forge_gui took 6.100 μs
+[18May2023 20:33:08.146] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes: jei:internal ...
+[18May2023 20:33:08.146] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering item subtypes: jei:internal took 5.300 μs
+[18May2023 20:33:08.147] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes: jei:minecraft ...
+[18May2023 20:33:08.147] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes: jei:minecraft took 16.30 μs
+[18May2023 20:33:08.147] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes: create:jei_plugin ...
+[18May2023 20:33:08.151] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes: create:jei_plugin took 3.499 ms
+[18May2023 20:33:08.151] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes: jei:gui ...
+[18May2023 20:33:08.151] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes: jei:gui took 7.400 μs
+[18May2023 20:33:08.151] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes: jei:debug ...
+[18May2023 20:33:08.153] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes: jei:debug took 1.444 ms
+[18May2023 20:33:08.153] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes: jei:forge_gui ...
+[18May2023 20:33:08.153] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes: jei:forge_gui took 5.800 μs
+[18May2023 20:33:08.153] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes: jei:internal ...
+[18May2023 20:33:08.153] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering fluid subtypes: jei:internal took 4.700 μs
+[18May2023 20:33:08.158] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients: jei:minecraft ...
+[18May2023 20:33:08.244] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients: jei:minecraft took 85.23 ms
+[18May2023 20:33:08.244] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients: create:jei_plugin ...
+[18May2023 20:33:08.244] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients: create:jei_plugin took 5.600 μs
+[18May2023 20:33:08.244] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients: jei:gui ...
+[18May2023 20:33:08.244] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients: jei:gui took 3.400 μs
+[18May2023 20:33:08.244] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients: jei:debug ...
+[18May2023 20:33:08.244] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients: jei:debug took 20.60 μs
+[18May2023 20:33:08.244] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients: jei:forge_gui ...
+[18May2023 20:33:08.244] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients: jei:forge_gui took 4.000 μs
+[18May2023 20:33:08.244] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients: jei:internal ...
+[18May2023 20:33:08.245] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering ingredients: jei:internal took 4.000 μs
+[18May2023 20:33:08.279] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories: jei:minecraft ...
+[18May2023 20:33:08.331] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories: jei:minecraft took 50.98 ms
+[18May2023 20:33:08.331] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories: create:jei_plugin ...
+[18May2023 20:33:08.420] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories: create:jei_plugin took 88.82 ms
+[18May2023 20:33:08.420] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories: jei:gui ...
+[18May2023 20:33:08.420] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories: jei:gui took 5.200 μs
+[18May2023 20:33:08.420] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories: jei:debug ...
+[18May2023 20:33:08.420] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories: jei:debug took 8.300 μs
+[18May2023 20:33:08.420] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories: jei:forge_gui ...
+[18May2023 20:33:08.420] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories: jei:forge_gui took 4.300 μs
+[18May2023 20:33:08.420] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories: jei:internal ...
+[18May2023 20:33:08.421] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering categories: jei:internal took 1.071 ms
+[18May2023 20:33:08.422] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions: jei:minecraft ...
+[18May2023 20:33:08.424] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions: jei:minecraft took 1.509 ms
+[18May2023 20:33:08.424] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions: create:jei_plugin ...
+[18May2023 20:33:08.424] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions: create:jei_plugin took 4.800 μs
+[18May2023 20:33:08.424] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions: jei:gui ...
+[18May2023 20:33:08.424] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions: jei:gui took 9.700 μs
+[18May2023 20:33:08.424] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions: jei:debug ...
+[18May2023 20:33:08.424] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions: jei:debug took 4.000 μs
+[18May2023 20:33:08.424] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions: jei:forge_gui ...
+[18May2023 20:33:08.424] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions: jei:forge_gui took 3.200 μs
+[18May2023 20:33:08.424] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions: jei:internal ...
+[18May2023 20:33:08.424] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering vanilla category extensions: jei:internal took 8.400 μs
+[18May2023 20:33:08.427] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts: jei:minecraft ...
+[18May2023 20:33:08.428] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts: jei:minecraft took 1.325 ms
+[18May2023 20:33:08.428] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts: create:jei_plugin ...
+[18May2023 20:33:08.430] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts: create:jei_plugin took 1.239 ms
+[18May2023 20:33:08.430] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts: jei:gui ...
+[18May2023 20:33:08.430] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts: jei:gui took 5.000 μs
+[18May2023 20:33:08.430] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts: jei:debug ...
+[18May2023 20:33:08.430] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts: jei:debug took 8.200 μs
+[18May2023 20:33:08.430] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts: jei:forge_gui ...
+[18May2023 20:33:08.430] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts: jei:forge_gui took 3.800 μs
+[18May2023 20:33:08.430] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts: jei:internal ...
+[18May2023 20:33:08.430] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipe catalysts: jei:internal took 4.500 μs
+[18May2023 20:33:08.432] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins: jei:minecraft ...
+[18May2023 20:33:08.432] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins: jei:minecraft took 19.00 μs
+[18May2023 20:33:08.432] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins: create:jei_plugin ...
+[18May2023 20:33:08.432] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins: create:jei_plugin took 4.600 μs
+[18May2023 20:33:08.432] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins: jei:gui ...
+[18May2023 20:33:08.432] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins: jei:gui took 3.500 μs
+[18May2023 20:33:08.432] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins: jei:debug ...
+[18May2023 20:33:08.432] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins: jei:debug took 3.900 μs
+[18May2023 20:33:08.432] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins: jei:forge_gui ...
+[18May2023 20:33:08.433] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins: jei:forge_gui took 3.800 μs
+[18May2023 20:33:08.433] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins: jei:internal ...
+[18May2023 20:33:08.433] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering advanced plugins: jei:internal took 4.100 μs
+[18May2023 20:33:08.433] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building recipe registry...
+[18May2023 20:33:08.468] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building recipe registry took 34.57 ms
+[18May2023 20:33:08.474] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes: jei:minecraft ...
+[18May2023 20:33:08.839] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes: jei:minecraft took 364.8 ms
+[18May2023 20:33:08.840] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes: create:jei_plugin ...
+[18May2023 20:33:09.029] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes: create:jei_plugin took 189.3 ms
+[18May2023 20:33:09.029] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes: jei:gui ...
+[18May2023 20:33:09.029] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes: jei:gui took 8.100 μs
+[18May2023 20:33:09.029] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes: jei:debug ...
+[18May2023 20:33:09.029] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes: jei:debug took 8.800 μs
+[18May2023 20:33:09.029] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes: jei:forge_gui ...
+[18May2023 20:33:09.029] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes: jei:forge_gui took 3.100 μs
+[18May2023 20:33:09.029] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes: jei:internal ...
+[18May2023 20:33:09.029] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes: jei:internal took 2.800 μs
+[18May2023 20:33:09.039] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers: jei:minecraft ...
+[18May2023 20:33:09.047] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers: jei:minecraft took 7.371 ms
+[18May2023 20:33:09.047] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers: create:jei_plugin ...
+[18May2023 20:33:09.048] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers: create:jei_plugin took 1.510 ms
+[18May2023 20:33:09.048] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers: jei:gui ...
+[18May2023 20:33:09.048] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers: jei:gui took 5.800 μs
+[18May2023 20:33:09.048] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers: jei:debug ...
+[18May2023 20:33:09.050] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers: jei:debug took 3.800 μs
+[18May2023 20:33:09.050] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers: jei:forge_gui ...
+[18May2023 20:33:09.050] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers: jei:forge_gui took 20.50 μs
+[18May2023 20:33:09.050] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers: jei:internal ...
+[18May2023 20:33:09.050] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering recipes transfer handlers: jei:internal took 4.700 μs
+[18May2023 20:33:09.067] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building runtime...
+[18May2023 20:33:09.079] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers: jei:minecraft ...
+[18May2023 20:33:09.085] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers: jei:minecraft took 5.091 ms
+[18May2023 20:33:09.085] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers: create:jei_plugin ...
+[18May2023 20:33:09.089] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers: create:jei_plugin took 3.370 ms
+[18May2023 20:33:09.089] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers: jei:gui ...
+[18May2023 20:33:09.103] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers: jei:gui took 14.62 ms
+[18May2023 20:33:09.103] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers: jei:debug ...
+[18May2023 20:33:09.103] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers: jei:debug took 12.70 μs
+[18May2023 20:33:09.103] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers: jei:forge_gui ...
+[18May2023 20:33:09.104] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers: jei:forge_gui took 6.500 μs
+[18May2023 20:33:09.104] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers: jei:internal ...
+[18May2023 20:33:09.104] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering gui handlers: jei:internal took 4.100 μs
+[18May2023 20:33:09.120] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime: jei:minecraft ...
+[18May2023 20:33:09.121] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime: jei:minecraft took 44.10 μs
+[18May2023 20:33:09.121] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime: create:jei_plugin ...
+[18May2023 20:33:09.121] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime: create:jei_plugin took 4.700 μs
+[18May2023 20:33:09.121] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime: jei:gui ...
+[18May2023 20:33:09.121] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime: jei:gui took 3.400 μs
+[18May2023 20:33:09.121] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime: jei:debug ...
+[18May2023 20:33:09.121] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime: jei:debug took 4.000 μs
+[18May2023 20:33:09.121] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime: jei:forge_gui ...
+[18May2023 20:33:09.123] [Render thread/INFO] [mezz.jei.gui.startup.JeiGuiStarter/]: Starting JEI GUI
+[18May2023 20:33:09.125] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building ingredient list...
+[18May2023 20:33:09.132] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building ingredient list took 6.601 ms
+[18May2023 20:33:09.132] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building ingredient filter...
+[18May2023 20:33:09.147] [Render thread/INFO] [mezz.jei.core.config.file.ConfigSerializer/]: Saving config file: C:\Users\Administrator\Documents\GitHub\create_infernalexp_compat\run\config\jei\jei-client.ini
+[18May2023 20:33:09.217] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Adding 2153 ingredients
+[18May2023 20:33:09.481] [Render thread/INFO] [mezz.jei.gui.ingredients.IngredientFilter/]: Added 2153 ingredients
+[18May2023 20:33:09.483] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building ingredient filter took 351.2 ms
+[18May2023 20:33:09.632] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime: jei:forge_gui took 511.1 ms
+[18May2023 20:33:09.632] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime: jei:internal ...
+[18May2023 20:33:09.632] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Registering Runtime: jei:internal took 7.600 μs
+[18May2023 20:33:09.635] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Building runtime took 569.0 ms
+[18May2023 20:33:09.637] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime: jei:minecraft ...
+[18May2023 20:33:09.637] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime: jei:minecraft took 18.10 μs
+[18May2023 20:33:09.637] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime: create:jei_plugin ...
+[18May2023 20:33:09.637] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime: create:jei_plugin took 2.900 μs
+[18May2023 20:33:09.637] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime: jei:gui ...
+[18May2023 20:33:09.637] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime: jei:gui took 2.300 μs
+[18May2023 20:33:09.637] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime: jei:debug ...
+[18May2023 20:33:09.637] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime: jei:debug took 5.500 μs
+[18May2023 20:33:09.637] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime: jei:forge_gui ...
+[18May2023 20:33:09.637] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime: jei:forge_gui took 3.400 μs
+[18May2023 20:33:09.637] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime: jei:internal ...
+[18May2023 20:33:09.637] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime: jei:internal took 3.000 μs
+[18May2023 20:33:09.638] [Render thread/INFO] [mezz.jei.common.util.LoggedTimer/]: Starting JEI took 1.578 s
+[18May2023 20:33:09.664] [Render thread/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 0 advancements
+[18May2023 20:39:02.648] [Render thread/INFO] [net.minecraft.client.Minecraft/]: Stopping!
+[18May2023 20:39:02.650] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver received class net.minecraftforge.client.event.ClientPlayerNetworkEvent$LoggingOut
+[18May2023 20:39:02.650] [Render thread/INFO] [mezz.jei.forge.startup.StartEventObserver/]: JEI StartEventObserver transitioning state from JEI_STARTED to DISABLED
+[18May2023 20:39:02.650] [Render thread/INFO] [mezz.jei.library.startup.JeiStarter/]: Stopping JEI
+[18May2023 20:39:02.651] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable: jei:minecraft ...
+[18May2023 20:39:02.651] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable: jei:minecraft took 12.90 μs
+[18May2023 20:39:02.651] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable: create:jei_plugin ...
+[18May2023 20:39:02.651] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable: create:jei_plugin took 3.600 μs
+[18May2023 20:39:02.651] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable: jei:gui ...
+[18May2023 20:39:02.651] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable: jei:gui took 2.700 μs
+[18May2023 20:39:02.651] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable: jei:debug ...
+[18May2023 20:39:02.652] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable: jei:debug took 2.300 μs
+[18May2023 20:39:02.652] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable: jei:forge_gui ...
+[18May2023 20:39:02.652] [Render thread/INFO] [mezz.jei.forge.plugins.forge.ForgeGuiPlugin/]: Stopping JEI GUI
+[18May2023 20:39:02.654] [JEI GUI Config file watcher/INFO] [mezz.jei.core.config.file.FileWatcherThread/]: FileWatcher was interrupted, stopping.
+[18May2023 20:39:02.655] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable: jei:forge_gui took 2.918 ms
+[18May2023 20:39:02.655] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable: jei:internal ...
+[18May2023 20:39:02.655] [Render thread/INFO] [mezz.jei.library.load.PluginCaller/]: Sending Runtime Unavailable: jei:internal took 5.600 μs
+[18May2023 20:39:02.655] [JEI Library Config file watcher/INFO] [mezz.jei.core.config.file.FileWatcherThread/]: FileWatcher was interrupted, stopping.
+[18May2023 20:39:02.692] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[18May2023 20:39:02.693] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[18May2023 20:39:02.703] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Stopping singleplayer server as player logged out
+[18May2023 20:39:02.733] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[18May2023 20:39:02.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[18May2023 20:39:02.734] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[18May2023 20:39:03.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[18May2023 20:39:04.233] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[18May2023 20:39:04.234] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[18May2023 20:39:04.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (New World): All chunks are saved
+[18May2023 20:39:04.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[18May2023 20:39:04.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[18May2023 20:39:04.250] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved

@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:blasting",
-  "ingredient": {
-    "item": "create_blue_skies_compat:crushed_charoite_ore"
-  },
-  "result": "blue_skies:charoite",
-  "experience": 0.1,
-  "cookingtime": 100
-}
