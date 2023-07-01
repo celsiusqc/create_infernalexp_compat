@@ -71,7 +71,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis lacinia magn
 [[dependencies.create_infernalexp_compat]]
 modId="create"
 mandatory=true
-versionRange="[0.5.0.i,)"
+versionRange="[0.5.1.a,)"
 ordering="NONE"
 side="BOTH"
 [[dependencies.create_infernalexp_compat]]

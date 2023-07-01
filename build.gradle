@@ -152,10 +152,10 @@ dependencies {
     // Specify the version of Minecraft to use. If this is any group other than 'net.minecraft', it is assumed
     // that the dep is a ForgeGradle 'patcher' dependency, and its patches will be applied.
     // The userdev artifact is a special name and will get all sorts of transformations applied to it.
-    minecraft 'net.minecraftforge:forge:1.19.2-43.2.2'
-    implementation fg.deobf("blank:infernal-expansion:1.19.2-2.5.3")
-    implementation fg.deobf("blank:create:1.19.2-0.5.0.i")
-    implementation fg.deobf("blank:jei:1.19.2-forge-11.6.0.1015")
+    minecraft 'net.minecraftforge:forge:1.19.2-43.2.14'
+    implementation fg.deobf("curse.maven:infernal-expansion-395078:4002091")
+    implementation fg.deobf("curse.maven:create-328085:4550987")
+    implementation fg.deobf("curse.maven:jei-238222:4615177")
 }
 
 // Example for how to get properties into the manifest for reading at runtime.
@@ -164,7 +164,7 @@ jar {
         attributes([
                 "Specification-Title"     : "create_infernalexp_compat",
                 "Specification-Vendor"    : "create_infernalexp_compatsareus",
-                "Specification-Version"   : "1.0.0", // We are version 1 of ourselves
+                "Specification-Version"   : project.version, // We are version 1 of ourselves
                 "Implementation-Title"    : project.name,
                 "Implementation-Version"  : project.jar.archiveVersion,
                 "Implementation-Vendor"   : "create_infernalexp_compatsareus",
